@@ -1,0 +1,39 @@
+{
+  "_": "Marca true solo las capacidades que el equipo implementa realmente.",
+  "interfaz": "opcion_a",
+  "modulo": "consultar.py",
+  "endpoint_http": null,
+  "arquitectura": "single_agent",
+  "bandas_declaradas": {
+    "banda5_pipeline_no_inventa": true,
+    "banda6_cita_archivo": true,
+    "banda7_benchmark_4_modelos": true,
+    "banda8_ragas_metricas_propias": true,
+    "banda10_hexagonal": false
+  },
+  "extras_declarados": {
+    "frontend": false,
+    "aws_rekognition": false,
+    "huggingface": false
+  },
+  "modelos_evaluados_en_benchmark": [
+    {
+      "alias": "qwen2.5:3b",
+      "servidor": "ollama_local"
+    },
+    {
+      "alias": "llama3.2:3b",
+      "servidor": "ollama_local"
+    },
+    {
+      "alias": "qwen",
+      "servidor": "poligpt"
+    },
+    {
+      "alias": "gemma",
+      "servidor": "poligpt"
+    }
+  ],
+  "ollama_local_obligatorio": true,
+  "verify_ssl_upv": false
+}

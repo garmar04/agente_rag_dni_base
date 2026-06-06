@@ -1,0 +1,218 @@
+{
+  "modelo_evaluado": "qwen",
+  "llm_evaluador": "qwen",
+  "embedding_evaluador": "bge-m3",
+  "num_preguntas": 12,
+  "promedios": {
+    "faithfulness": 0.7321,
+    "answer_relevancy": 0.4845,
+    "context_precision": 0.3531,
+    "context_recall": 0.3333
+  },
+  "resultados_por_pregunta": [
+    {
+      "id": "p01",
+      "pregunta": "¿Qué es DNI?",
+      "modelo": "qwen",
+      "respuesta": "DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa.",
+      "fuentes": [
+        "02_presentacion_desayunos.txt",
+        "03_charlas_abuelitos.txt",
+        "04_filosofia_dni.txt"
+      ],
+      "ground_truth": "DNI es una asociación de jóvenes voluntarios en Valencia que realiza proyectos sociales como desayunos solidarios, RESIS y COLES.",
+      "metricas_ragas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5911,
+        "context_precision": 0.2,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "p02",
+      "pregunta": "¿Cómo me apunto a los desayunos solidarios?",
+      "modelo": "qwen",
+      "respuesta": "La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.",
+      "fuentes": [
+        "01_faq_dni.txt",
+        "07_desayunos_logistica.txt",
+        "10_proyectos.txt"
+      ],
+      "ground_truth": "La respuesta debe explicar cómo participar en desayunos solidarios según el corpus.",
+      "metricas_ragas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5385,
+        "context_precision": 1.0,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "id": "p03",
+      "pregunta": "¿Qué es COLES?",
+      "modelo": "qwen",
+      "respuesta": "Según el contexto proporcionado, COLES es el proyecto de refuerzo escolar de la asociación.",
+      "fuentes": [
+        "02_presentacion_desayunos.txt",
+        "03_charlas_abuelitos.txt",
+        "04_filosofia_dni.txt"
+      ],
+      "ground_truth": "COLES es el proyecto de refuerzo escolar de DNI para niños en riesgo de exclusión.",
+      "metricas_ragas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7265,
+        "context_precision": 0.2,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "id": "p04",
+      "pregunta": "¿En qué se diferencian RESIS y COLES?",
+      "modelo": "qwen",
+      "respuesta": "No tengo esa información en mis fuentes.",
+      "fuentes": [],
+      "ground_truth": "RESIS se centra en residencias de mayores y COLES en refuerzo escolar para niños.",
+      "metricas_ragas": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "id": "p05",
+      "pregunta": "¿Qué actividades se hacen en residencias de mayores?",
+      "modelo": "qwen",
+      "respuesta": "Según la información proporcionada, en las residencias de mayores se realizan actividades como conversaciones, paseos, juegos, meriendas, juegos de mesa, excursiones, manualidades e ir a comprar. Estas actividades se coordinan con los profesionales de la residencia.",
+      "fuentes": [
+        "03_charlas_abuelitos.txt",
+        "05_resis_actividades.txt",
+        "06_coles_refuerzo.txt"
+      ],
+      "ground_truth": "La respuesta debe describir las actividades realizadas con personas mayores en residencias según el corpus.",
+      "metricas_ragas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9415,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "id": "p06",
+      "pregunta": "¿Qué valores tiene DNI?",
+      "modelo": "qwen",
+      "respuesta": "Según el contexto, los valores fundamentales que representa DNI son: empatía (ponerse en el lugar del otro), acción directa (voluntariado práctico sin intermediarios), comunidad (crear vínculos entre jóvenes con propósito social), inclusión (todas las personas son bienvenidas) y transformación social (creer que pequeñas acciones generan grandes cambios). Todo lo realizan desde la ilusión y la alegría. \n\n*(Nota: En otra fuente se complementa esta información mencionando que los ingredientes principales que los mueven son la Ilusión, el Compromiso y la Solidaridad, con un toque joven).*",
+      "fuentes": [
+        "08_preguntas_basicas.txt",
+        "14_impacto_social.txt",
+        "15_desayunos_100_preguntas.txt"
+      ],
+      "ground_truth": "La respuesta debe explicar los valores o la filosofía de DNI según el corpus.",
+      "metricas_ragas": {
+        "faithfulness": 0.7857,
+        "answer_relevancy": 0.6446,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "id": "p07",
+      "pregunta": "¿Qué proyectos principales tiene DNI?",
+      "modelo": "qwen",
+      "respuesta": "DNI tiene 3 proyectos principales activos:\n1) Desayunos y Cenas Solidarias para personas sin hogar (casi todas las semanas).\n2) Charlas con Abuelitos en residencia L'Acollida (miércoles de 5:30-6:30pm).\n3) Refuerzo Escolar (COLES) en biblioteca tutorizada para niños.",
+      "fuentes": [
+        "09_como_participar.txt",
+        "10_proyectos.txt",
+        "15_desayunos_100_preguntas.txt"
+      ],
+      "ground_truth": "La respuesta debe mencionar proyectos como desayunos solidarios, residencias de mayores y refuerzo escolar.",
+      "metricas_ragas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.838,
+        "context_precision": 0.8667,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "p08",
+      "pregunta": "¿A qué hora son los desayunos solidarios?",
+      "modelo": "qwen",
+      "respuesta": "Hay una contradicción entre las fuentes respecto a la hora exacta:\n- Según [Fuente: 11_horarios_ubicaciones.txt], los desayunos suelen ser típicamente entre las 9:00-12:00h, y la hora exacta varía según la zona y la coordinación, avisándose con antelación en el grupo de WhatsApp.\n- Según [Fuente: 01_faq_dni.txt], los desayunos son a las 8 de la mañana.\n\nTe avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp.",
+      "fuentes": [
+        "01_faq_dni.txt",
+        "07_desayunos_logistica.txt",
+        "10_proyectos.txt"
+      ],
+      "ground_truth": "La respuesta debe indicar el horario encontrado en las fuentes y, si hay contradicción, mostrar ambas versiones.",
+      "metricas_ragas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6755,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "id": "p09",
+      "pregunta": "¿Cuál es el teléfono personal del presidente de DNI?",
+      "modelo": "qwen",
+      "respuesta": "No tengo esa información en mis fuentes.",
+      "fuentes": [],
+      "ground_truth": "No tengo esa información en mis fuentes.",
+      "metricas_ragas": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.75,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "p10",
+      "pregunta": "¿Cuánto cuesta el alquiler en Valencia?",
+      "modelo": "qwen",
+      "respuesta": "No tengo esa información en mis fuentes.",
+      "fuentes": [],
+      "ground_truth": "No tengo esa información en mis fuentes.",
+      "metricas_ragas": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.8875,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "p11",
+      "pregunta": "¿Qué impacto social tiene DNI?",
+      "modelo": "qwen",
+      "respuesta": "Según la información proporcionada, DNI practica un **impacto social directo** sin intermediarios. Los voluntarios realizan acciones concretas como dar desayunos, conversar con personas mayores y ayudar a niños con los deberes, lo que genera sonrisas, agradecimientos y abrazos. \n\nEsta labor cuenta con más de 400 voluntarios activos y beneficia a cientos de personas cada semana, transformando vidas de manera tangible. Además, comparten historias reales e impacto medible en su Instagram (@dnivalenciaa) y organizan actividades temáticas, regalos o decoraciones con los mayores en fechas especiales como Navidad o Fallas. \n\nTodo esto se enmarca en su filosofía de \"PARA. MIRA. AYUDA.\", basada en el voluntariado sin burocracia de jóvenes de 18 a 25 años que buscan generar un impacto social real.",
+      "fuentes": [
+        "08_preguntas_basicas.txt",
+        "09_como_participar.txt",
+        "12_contacto_redes.txt"
+      ],
+      "ground_truth": "La respuesta debe resumir el impacto social de DNI usando información del corpus.",
+      "metricas_ragas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.4337,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "id": "p12",
+      "pregunta": "¿Quién puede ser voluntario en DNI?",
+      "modelo": "qwen",
+      "respuesta": "Según la información proporcionada, no es necesario ser ciudadano español para realizar el voluntariado. El contexto no menciona otros requisitos o condiciones específicas para ser voluntario.",
+      "fuentes": [
+        "02_presentacion_desayunos.txt",
+        "14_impacto_social.txt",
+        "16_resis_49_preguntas.txt"
+      ],
+      "ground_truth": "La respuesta debe explicar quién puede participar como voluntario según el corpus.",
+      "metricas_ragas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.4243,
+        "context_precision": 0.3333,
+        "context_recall": 0.0
+      }
+    }
+  ]
+}

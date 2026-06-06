@@ -1,0 +1,1374 @@
+[
+  {
+    "id": "p01",
+    "pregunta": "¿Qué es DNI?",
+    "tipo": "factual",
+    "ground_truth": "DNI es una asociación de jóvenes voluntarios en Valencia que realiza proyectos sociales como desayunos solidarios, RESIS y COLES.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa.",
+    "fuentes": [
+      "02_presentacion_desayunos.txt",
+      "04_filosofia_dni.txt",
+      "14_impacto_social.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "### IMPACTO SOCIAL Y TESTIMONIOS ###",
+      "CHARLAS CON ABUELITOS - PROYECTO DE RESIDENCIAS\n\nINTRODUCCIÓN",
+      "### PREGUNTAS BÁSICAS SOBRE DNI ###\n\nQ: ¿Qué es DNI?\nA: DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa."
+    ],
+    "metricas": {
+      "tokens_entrada": 493,
+      "tokens_salida": 103,
+      "latencia_s": 5.004,
+      "latencia_total_s": 8.353,
+      "tokens_s": 99.57
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p02",
+    "pregunta": "¿Cómo me apunto a los desayunos solidarios?",
+    "tipo": "logistica",
+    "ground_truth": "La respuesta debe explicar cómo participar en desayunos solidarios según el corpus.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse. No tienes que ir al resto si te apuntas un día. Los desayunos solidarios son actividades puntuales en DNI: puedes apuntarte sin necesidad de asistir a las próximas actividades.",
+    "fuentes": [
+      "01_faq_dni.txt",
+      "07_desayunos_logistica.txt",
+      "10_proyectos.txt"
+    ],
+    "chunks": [
+      "Q: ¿Cómo me apunto a los desayunos solidarios?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día a desayunos tengo que ir al resto?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Cómo me apunto a los desayunos?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día tengo que ir siempre?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Cómo funcionan los desayunos solidarios?\nA: Los desayunos solidarios se realizan casi todas las semanas en zona centro de Valencia. Preparamos bocadillos, café, zumo y algo de fruta, y vamos a zonas donde hay personas sin hogar. Lo más importante NO es solo dar comida, sino sentarnos a conversar con ellos, escucharles, conocer sus historias y hacerles sentir acompañados. Cada desayuno dura unas 2-3 horas. Es una experiencia transformadora que cambia tu perspectiva sobre la exclusión social.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía.",
+      "Q: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. La hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar. Nos gusta madrugar un poco para llegar cuando la gente está despertando. Te avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp."
+    ],
+    "metricas": {
+      "tokens_entrada": 897,
+      "tokens_salida": 87,
+      "latencia_s": 3.217,
+      "latencia_total_s": 5.327,
+      "tokens_s": 105.49
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p03",
+    "pregunta": "¿Qué es COLES?",
+    "tipo": "factual",
+    "ground_truth": "COLES es el proyecto de refuerzo escolar de DNI para niños en riesgo de exclusión.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "DINÁMICA DE TRABAJO",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "### IMPACTO SOCIAL Y TESTIMONIOS ###",
+      "CHARLAS CON ABUELITOS - PROYECTO DE RESIDENCIAS\n\nINTRODUCCIÓN",
+      "### PREGUNTAS BÁSICAS SOBRE DNI ###\n\nQ: ¿Qué es DNI?\nA: DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa."
+    ],
+    "metricas": {
+      "tokens_entrada": 493,
+      "tokens_salida": 10,
+      "latencia_s": 2.355,
+      "latencia_total_s": 4.417,
+      "tokens_s": 123.71
+    },
+    "calidad_subjetiva": 0.0,
+    "error": null
+  },
+  {
+    "id": "p04",
+    "pregunta": "¿En qué se diferencian RESIS y COLES?",
+    "tipo": "sintesis",
+    "ground_truth": "RESIS se centra en residencias de mayores y COLES en refuerzo escolar para niños.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿En qué se diferencia DNI de otras ONG?\nA: DNI se diferencia por: 1) Ser 100% jóvenes (18-25 años) lo que crea una energía especial, 2) Sin burocracia - te unes por WhatsApp y ya estás dentro, 3) Proyectos directos donde tú eres el protagonista de la ayuda (no intermediarios), 4) Comunidad fuerte - harás amigos con tus mismos valores, 5) Flexibilidad - participas cuando puedas, sin compromisos forzados.",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Cuántas veces puedo participar al mes?\nA: Las que quieras. No hay límite; muchos voluntarios vienen casi todas las semanas.\n\nQ: ¿Qué diferencia hay entre \"desayuno solidario\" y \"cena solidaria\"?\nA: La principal diferencia es la hora y el tipo de alimentos: en los desayunos llevamos café, zumos y bollería; en las cenas, bocadillos y fruta.\n\nQ: ¿Puedo elegir si quiero hacer desayuno o cena?\nA: Sí, cada semana puedes apuntarte al turno que prefieras según tu disponibilidad.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía."
+    ],
+    "metricas": {
+      "tokens_entrada": 901,
+      "tokens_salida": 10,
+      "latencia_s": 2.426,
+      "latencia_total_s": 4.545,
+      "tokens_s": 116.35
+    },
+    "calidad_subjetiva": 0.0,
+    "error": null
+  },
+  {
+    "id": "p05",
+    "pregunta": "¿Qué actividades se hacen en residencias de mayores?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe describir las actividades realizadas con personas mayores en residencias según el corpus.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "Se coordinan con los profesionales: manualidades, juegos de mesa, paseos, o ir a comprar. También incluyen meriendas, paseos, juegos de mesa, excursiones y muchas más!!",
+    "fuentes": [
+      "03_charlas_abuelitos.txt",
+      "05_resis_actividades.txt",
+      "11_horarios_ubicaciones.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO\n\nLa actividad consistirá en unas visitas por las tardes a las residencias de ancianos los días y en el horario que la dirección de la residencia nos asigne. En estas visitas se tratará de amenizar la tarde al residente, ya sea con una conversación, un paseo o un juego.",
+      "Q: ¿Qué tipo de actividades se realizan en residencias?\nA: Meriendas, paseos, juegos de mesa, excursiones y muchas más!!",
+      "Q: ¿Hay transporte organizado para las actividades?\nA: Para actividades en Valencia capital (desayunos solidarios, residencia de abuelitos RESIS, biblioteca COLES) normalmente cada uno llega por su cuenta, ya que suelen ser zonas accesibles en transporte público. La residencia L'Acollida está cerca de Blasco Ibáñez con buenas conexiones de autobús y metro. Lo especificamos siempre en la convocatoria de cada actividad si hay alguna particularidad.",
+      "Q: ¿Qué otras actividades con niños hace DNI?\nA: Además esta actividad semanal a lo largo del año hacemos otras actividades puntuales como Llegada de los Reyes en Navidad o como el Día del Niño en verano este último consiste en llevar a niños de centros de acogida a Terra Mítica a pasar un gran día.",
+      "Q: ¿Solo puedo ir los miércoles o hay otras opciones?\nA: No hay otras opciones para la actividad semanal de RESIS. Solo puedes optar a las actividades puntuales sin compromiso fijo.\n\nQ: ¿Qué tipo de actividades se realizan en la residencia?\nA: Se coordinan con los profesionales: manualidades, juegos de mesa, paseos, o ir a comprar."
+    ],
+    "metricas": {
+      "tokens_entrada": 658,
+      "tokens_salida": 47,
+      "latencia_s": 2.765,
+      "latencia_total_s": 4.837,
+      "tokens_s": 107.5
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p06",
+    "pregunta": "¿Qué valores tiene DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar los valores o la filosofía de DNI según el corpus.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "Empatía, acción directa, comunidad, inclusión y transformación social.",
+    "fuentes": [
+      "08_preguntas_basicas.txt",
+      "15_desayunos_100_preguntas.txt",
+      "14_impacto_social.txt"
+    ],
+    "chunks": [
+      "Q: ¿Qué valores representa DNI?\nA: Nuestros valores fundamentales son: empatía (ponernos en el lugar del otro), acción directa (voluntariado práctico sin intermediarios), comunidad (crear vínculos entre jóvenes con propósito social), inclusión (todas las personas son bienvenidas) y transformación social (creemos que pequeñas acciones generan grandes cambios). Todo lo hacemos desde la ilusión y la alegría.",
+      "Q: ¿Qué valores mueve a Damos Nuestra Ilusión?\nA: Nuestra receta lleva tres ingredientes principales: Ilusión, Compromiso y Solidaridad. Y un toque joven que hace que cada salida sea especial.\n\nQ: ¿Dónde puedo seguir las actividades o ver fotos del voluntariado?\nA: Estamos activos en Instagram y TikTok. Ahí compartimos vídeos, fotos y experiencias para seguir inspirando a más jóvenes como tú.",
+      "Q: ¿Cuántos voluntarios tiene DNI?\nA: Actualmente tenemos +750 jóvenes interesados en nuestras actividades y +400 voluntarios activos que participan regularmente en nuestros proyectos. Nuestras plazas para actividades (45 por evento típicamente) se llenan en unos 45 minutos, lo que demuestra el alto interés de los jóvenes valencianos por el voluntariado social.",
+      "Q: ¿Qué pasa si no me gusta o no me siento bien?\nA: Está totalmente bien. El voluntariado es una experiencia personal y no a todo el mundo le encaja. Si pruebas DNI y sientes que no es para ti (por el tipo de proyectos, el horario, la dinámica de grupo, etc.), no pasa nada - agradecemos que lo hayas intentado. Algunos voluntarios descubren que prefieren otro tipo de ayuda social (animales, medio ambiente, etc.) y está genial. Lo importante es encontrar TU forma de contribuir. Si tienes dudas o incomodidades, habla con los coordinadores - quizás es solo cuestión de probar otro proyecto de DNI.",
+      "### PREGUNTAS DESAYUNOS - VOLUNTARIADO DNI ###\n\nQ: ¿Qué se hace exactamente en el voluntariado?\nA: Repartimos cenas, desayunos o meriendas solidarias a personas sin hogar por las calles de Valencia. Salimos en grupo junto a un staff, caminamos unos 45-60 minutos y, sobre todo, compartimos momentos, conversación y sonrisas."
+    ],
+    "metricas": {
+      "tokens_entrada": 831,
+      "tokens_salida": 18,
+      "latencia_s": 2.494,
+      "latencia_total_s": 4.591,
+      "tokens_s": 118.06
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p07",
+    "pregunta": "¿Qué proyectos principales tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe mencionar proyectos como desayunos solidarios, residencias de mayores y refuerzo escolar.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "DNI tiene 3 proyectos principales activos: 1) Desayunos y Cenas Solidarias para personas sin hogar (casi todas las semanas), 2) Charlas con Abuelitos en residencia L'Acollida (miércoles de 5:30-6:30pm), 3) Refuerzo Escolar (COLES) en biblioteca tutorizada para niños.",
+    "fuentes": [
+      "10_proyectos.txt",
+      "09_como_participar.txt",
+      "15_desayunos_100_preguntas.txt"
+    ],
+    "chunks": [
+      "### PROYECTOS DE DNI ###\n\nQ: ¿Qué proyectos tiene DNI actualmente?\nA: DNI tiene 3 proyectos principales activos: 1) Desayunos y Cenas Solidarias para personas sin hogar (casi todas las semanas), 2) Charlas con Abuelitos en residencia L'Acollida (miércoles de 5:30-6:30pm), 3) Refuerzo Escolar (COLES) en biblioteca tutorizada para niños.",
+      "Q: ¿Puedo participar en todos los proyectos o tengo que elegir uno?\nA: ¡Puedes participar en todos los proyectos que te interesen! No tienes que limitarte a uno. Muchos voluntarios hacen desayunos algunos fines de semana y visitan abuelitos entre semana. La única excepción es el refuerzo escolar (COLES) que sí requiere más regularidad por el vínculo con los niños. Explora, prueba diferentes proyectos, y quédate con los que más resuenen contigo.",
+      "Q: ¿Puedo proponer ideas o nuevos proyectos?\nA: ¡Por supuesto! DNI es una organización horizontal donde todas las ideas son bienvenidas. Si tienes una propuesta de nuevo proyecto social o mejoras para los actuales, compártela con los coordinadores en el grupo de WhatsApp o en persona. Muchos de nuestros proyectos nacieron de ideas de voluntarios. Creemos en la co-creación y en que todos podemos aportar.",
+      "Q: ¿Cómo se financia el proyecto?\nA: A través de donaciones, campañas solidarias y colaboraciones con empresas o locales de Valencia.\n\nQ: ¿Cómo puedo donar dinero o alimentos?\nA: Puedes escribirnos por Instagram o WhatsApp, y te explicamos las opciones seguras de colaboración.\n\nQ: ¿El proyecto pertenece a alguna ONG grande?\nA: No, es un movimiento independiente, nacido en Valencia y gestionado por jóvenes voluntarios.",
+      "Q: ¿Qué proyecto es mejor para empezar?\nA: Para empezar te recomendamos los desayunos solidarios o las visitas a abuelitos (RESIS). Son proyectos muy accesibles, no requieren formación previa, y te dan una experiencia completa de lo que es DNI. Los desayunos son más esporádicos (ideales si tienes poco tiempo), mientras que los abuelitos permiten crear vínculos más profundos si puedes ir regularmente. ¡Elige según tu disponibilidad y preferencias!"
+    ],
+    "metricas": {
+      "tokens_entrada": 811,
+      "tokens_salida": 89,
+      "latencia_s": 3.269,
+      "latencia_total_s": 5.348,
+      "tokens_s": 103.7
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p08",
+    "pregunta": "¿A qué hora son los desayunos solidarios?",
+    "tipo": "contradiccion",
+    "ground_truth": "La respuesta debe indicar el horario encontrado en las fuentes y, si hay contradicción, mostrar ambas versiones.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "Los desayunos solidarios son a las 8 de la mañana.",
+    "fuentes": [
+      "11_horarios_ubicaciones.txt",
+      "10_proyectos.txt",
+      "07_desayunos_logistica.txt"
+    ],
+    "chunks": [
+      "Q: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. La hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar. Nos gusta madrugar un poco para llegar cuando la gente está despertando. Te avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp.",
+      "Q: ¿Cómo funcionan los desayunos solidarios?\nA: Los desayunos solidarios se realizan casi todas las semanas en zona centro de Valencia. Preparamos bocadillos, café, zumo y algo de fruta, y vamos a zonas donde hay personas sin hogar. Lo más importante NO es solo dar comida, sino sentarnos a conversar con ellos, escucharles, conocer sus historias y hacerles sentir acompañados. Cada desayuno dura unas 2-3 horas. Es una experiencia transformadora que cambia tu perspectiva sobre la exclusión social.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía.",
+      "Q: ¿Cómo me apunto a los desayunos solidarios?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día a desayunos tengo que ir al resto?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Dónde es el punto de encuentro para desayunos?\nA: El punto de encuentro siempre es la Porta de la Mar de Valencia. Desde ahí repartimos los alimentos por las zonas de Mestalla, el centro, El Carmen o el río entre otros.\n\nQ: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos son a las 8 de la mañana y las cenas a las ocho y media de la tarde (20:30)."
+    ],
+    "metricas": {
+      "tokens_entrada": 881,
+      "tokens_salida": 16,
+      "latencia_s": 2.516,
+      "latencia_total_s": 4.589,
+      "tokens_s": 112.98
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p09",
+    "pregunta": "¿Cuál es el teléfono personal del presidente de DNI?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Qué hacemos con los abuelitos?\nA: En la residencia L'Acollida visitamos a los ancianos todos los miércoles de 5:30 a 6:30 de la tarde. Las actividades incluyen: paseos por el jardín, juegos de mesa (parchís, cartas, dominó), conversaciones sobre sus historias de vida, lectura de periódicos, cantar canciones antiguas, manualidades simples, y simplemente hacerles compañía. Lo que más valoran es la atención individualizada - que alguien joven se interese por ellos y les dedique tiempo con cariño.",
+      "JUSTIFICACIÓN\n\nEl proyecto \"Charlas con abuelitos\" es una respuesta a la falta de atención que se vive en gran parte de las residencias valencianas. Trata de llenar esa falta de atención a los ancianos que no es profesional, sino social y familiar.\n\nPor otro lado también se busca revalorizar esta figura del anciano dentro la sociedad. Ayudar a la juventud a descubrir el valor que todas estas personas atesoran resaltando la importancia de los mayores en nuestra sociedad.\n\nOBJETIVOS",
+      "Q: ¿Por qué debería unirme a DNI?\nA: Unirte a DNI te cambia la vida en múltiples niveles: 1) Impacto real - verás directamente cómo tu ayuda mejora la vida de personas sin hogar, ancianos solos, niños en dificultades, 2) Comunidad - harás amigos con tus mismos valores, gente increíble de 18-25 años, 3) Crecimiento personal - desarrollarás empatía, liderazgo, trabajo en equipo, 4) Propósito - sentirás que tu tiempo importa y genera cambio positivo, 5) Diversión - ¡el voluntariado con DNI es alegre, dinámico y lleno de buenas vibras! Ven a una actividad y lo experimentarás. 💙",
+      "Q: ¿Qué hago si un residente me pide algo personal?\nA: Debes comunicarlo al responsable. No se deben asumir compromisos individuales.\n\nQ: ¿Qué actitud se espera de un voluntario?\nA: Respeto, empatía, puntualidad y entusiasmo por compartir tiempo con los mayores.\n\nQ: ¿Puedo participar si tengo exámenes o trabajo?\nA: Sí, siempre que te organices y avises si un día no puedes asistir."
+    ],
+    "metricas": {
+      "tokens_entrada": 1019,
+      "tokens_salida": 10,
+      "latencia_s": 2.467,
+      "latencia_total_s": 4.531,
+      "tokens_s": 116.82
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p10",
+    "pregunta": "¿Cuánto cuesta el alquiler en Valencia?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿Cómo contacto con alguien de la asociación?\nA: La mejor manera es entrar en el grupo de WhatsApp. Escribe a alguno de los administradores y ellos te redirigirán o te resolverán la pregunta.\n\nQ: ¿Puedo contactar con algún voluntario que me cuente su experiencia?\nA: Claro que sí. Pídeselo a alguien de la asociación y te pasará el contacto de un voluntario o exvoluntario.\n\nQ: ¿Necesito algún tipo de formación para acudir?\nA: No, no es necesaria ninguna formación previa.",
+      "Q: ¿Qué pasa si alguien se siente mal durante el recorrido?\nA: Paramos, lo atendemos y, si hace falta, pedimos ayuda. Siempre salimos acompañados para mayor seguridad.\n\nQ: ¿Hay que llevar dinero?\nA: No, todo lo necesario lo aporta la organización. Solo lleva lo justo para tomar algo después si te apetece.\n\nQ: ¿Qué hago si quiero unirme al equipo organizador?\nA: Participa varias veces y coméntalo con un miembro del staff. Buscamos personas comprometidas y con ganas de aportar.",
+      "Q: ¿Qué otras actividades con niños hace DNI?\nA: Además esta actividad semanal a lo largo del año hacemos otras actividades puntuales como Llegada de los Reyes en Navidad o como el Día del Niño en verano este último consiste en llevar a niños de centros de acogida a Terra Mítica a pasar un gran día.",
+      "DNI busca dejar un mundo mejor, aspira a ayudar al vecino, no pretende irse muy lejos para conseguir hacer algo bueno, porque siempre tendremos a una persona cerca que nos está esperando. No pretende ser importante, sino meterse en tu día a día, habituarte a parar, enseñarte a mirar, con cariño y cercanía, y ofrecer la máxima ayuda, sacando lo mejor de nosotros mismos.",
+      "Q: ¿Cuánto dura cada voluntariado más o menos?\nA: Cada salida dura entre una hora y hora y media, dependiendo del ritmo del grupo y de las personas con las que coincidamos durante el recorrido. Luego tomamos algo y puedes quedarte todo lo que quieras.\n\nQ: ¿Hace falta llevar algo especial (ropa, calzado, mochila…)?\nA: Solo recomendamos llevar ropa cómoda y calzado adecuado para caminar, y muchas ganas de ayudar e ilusión!"
+    ],
+    "metricas": {
+      "tokens_entrada": 852,
+      "tokens_salida": 10,
+      "latencia_s": 2.412,
+      "latencia_total_s": 4.481,
+      "tokens_s": 105.04
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p11",
+    "pregunta": "¿Qué impacto social tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe resumir el impacto social de DNI usando información del corpus.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "DNI tiene un impacto social significativo. Ofrece actividades para personas mayores durante fechas especiales como Navidad y Fallas, proporcionando regalos e incluso decoraciones. Los voluntarios de DNI interactúan directamente con los beneficiados, como ayudar a niños con deberes ou conversar com ancianos. Este enfoque sin intermediarios permite aos voluntarios ver, escuchar e sentir la diferencia que hacen. Además, se comparten historias reales e impacto medible en Instagram @dnivalenciaa. Con más de +400 voluntarios activos e innumerables beneficiados semanalmente, DNI demuestra que su ayuda importa e transforma vidas.",
+    "fuentes": [
+      "12_contacto_redes.txt",
+      "08_preguntas_basicas.txt",
+      "16_resis_49_preguntas.txt"
+    ],
+    "chunks": [
+      "Q: ¿DNI tiene redes sociales?\nA: Sí, nuestra red social principal es Instagram: @dnivalenciaa donde tenemos +2,077 seguidores. Allí publicamos fotos de nuestras actividades, convocatorias de nuevos proyectos, historias inspiradoras de voluntarios, y todo lo que pasa en DNI. ¡Síguenos para estar al día! También usamos WhatsApp intensivamente para la coordinación directa entre voluntarios. Nuestra web es damosnuestrailusionvlc.org.",
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Qué se hace en fechas especiales como Navidad o Fallas?\nA: Se preparan actividades temáticas, regalos o decoraciones con los mayores.\n\nQ: ¿Hay alguna reunión o formación antes de empezar?\nA: Sí, el responsable te explicará cómo interactuar y las normas básicas.\n\nQ: ¿Cuánto tiempo se recomienda participar para notar impacto?\nA: Al menos un trimestre, aunque muchos voluntarios continúan todo el curso.",
+      "Q: ¿Cómo sé que mi ayuda realmente sirve?\nA: En DNI practicamos el impacto directo - TÚ eres quien da el desayuno, conversa con el anciano, ayuda al niño con los deberes. No hay intermediarios. Verás con tus propios ojos las sonrisas, escucharás los \"gracias\", sentirás los abrazos. Nuestros +400 voluntarios activos y las cientos de personas beneficiadas cada semana son la prueba de que sí, tu ayuda importa y transforma vidas. Además, compartimos historias reales e impacto medible en nuestro Instagram @dnivalenciaa.",
+      "Q: ¿Puedo ir solo/a o necesito ir con amigos?\nA: ¡Puedes venir solo/a sin problema! De hecho, muchos voluntarios vienen sin conocer a nadie y hacen grandes amigos en DNI. Somos una comunidad muy acogedora - en tu primera actividad te presentaremos al grupo y te sentirás como en casa rápidamente. Y si quieres venir con amigos, ¡mejor aún! Podéis vivir la experiencia juntos."
+    ],
+    "metricas": {
+      "tokens_entrada": 925,
+      "tokens_salida": 151,
+      "latencia_s": 3.974,
+      "latencia_total_s": 6.078,
+      "tokens_s": 106.66
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p12",
+    "pregunta": "¿Quién puede ser voluntario en DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar quién puede participar como voluntario según el corpus.",
+    "modelo": "qwen2.5:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "4. Llevar este voluntariado fuera de la asociación: a partir de la concienciación de los voluntarios que estos traten de ayudar a estas personas siempre que puedan en el día a día. Prestando su ayuda o simplemente saludando con una sonrisa.",
+      "Q: ¿Qué gano yo siendo voluntario?\nA: Aunque el voluntariado es dar sin esperar nada a cambio, la realidad es que recibes mucho: experiencias transformadoras que cambian tu perspectiva de vida, habilidades blandas valoradas en el mercado laboral (comunicación, empatía, resolución de problemas), una red de contactos y amistades profundas, satisfacción personal y sentido de propósito, historias increíbles que contar, y sobre todo, la alegría de ver sonreír a alguien gracias a ti. Como dicen nuestros voluntarios: \"Vienes a ayudar y acabas siendo tú el ayudado\". ❤️",
+      "Q: ¿Hace falta ser ciudadano español para realizar el voluntariado?\nA: No, no hace falta ser ciudadano español.\n\nQ: ¿De dónde sale el dinero de la asociación?\nA: De las subvenciones del Estado. El voluntario no necesita hacer ninguna donación.\n\nQ: ¿Qué tengo que hacer si surge algún gasto imprevisto?\nA: Contactar inmediatamente con el responsable de la asociación. Él se encargará de solucionarlo. En ningún caso el voluntario tiene que aportar dinero.",
+      "Q: ¿Qué dicen otros voluntarios de DNI?\nA: Nuestros voluntarios destacan tres cosas: 1) \"DNI es mi segunda familia\" - la comunidad es super unida y acogedora, 2) \"Cambió mi forma de ver el mundo\" - el voluntariado te hace más empático y consciente, 3) \"Es lo mejor que hago en la semana\" - a pesar de estudios/trabajo, el tiempo en DNI les recarga de energía positiva. Muchos empezaron hace años como voluntarios nuevos y ahora son coordinadores. Las plazas se llenan en 45 minutos porque la experiencia es genuinamente transformadora.",
+      "Q: ¿Qué pasa si no me gusta o no me siento bien?\nA: Está totalmente bien. El voluntariado es una experiencia personal y no a todo el mundo le encaja. Si pruebas DNI y sientes que no es para ti (por el tipo de proyectos, el horario, la dinámica de grupo, etc.), no pasa nada - agradecemos que lo hayas intentado. Algunos voluntarios descubren que prefieren otro tipo de ayuda social (animales, medio ambiente, etc.) y está genial. Lo importante es encontrar TU forma de contribuir. Si tienes dudas o incomodidades, habla con los coordinadores - quizás es solo cuestión de probar otro proyecto de DNI."
+    ],
+    "metricas": {
+      "tokens_entrada": 912,
+      "tokens_salida": 10,
+      "latencia_s": 2.428,
+      "latencia_total_s": 4.482,
+      "tokens_s": 116.34
+    },
+    "calidad_subjetiva": 0.0,
+    "error": null
+  },
+  {
+    "id": "p01",
+    "pregunta": "¿Qué es DNI?",
+    "tipo": "factual",
+    "ground_truth": "DNI es una asociación de jóvenes voluntarios en Valencia que realiza proyectos sociales como desayunos solidarios, RESIS y COLES.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "La respuesta correcta a la pregunta \"¿Qué es DNI?\" según el contexto proporcionado es:\n\nDNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa.",
+    "fuentes": [
+      "02_presentacion_desayunos.txt",
+      "04_filosofia_dni.txt",
+      "14_impacto_social.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "### IMPACTO SOCIAL Y TESTIMONIOS ###",
+      "CHARLAS CON ABUELITOS - PROYECTO DE RESIDENCIAS\n\nINTRODUCCIÓN",
+      "### PREGUNTAS BÁSICAS SOBRE DNI ###\n\nQ: ¿Qué es DNI?\nA: DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa."
+    ],
+    "metricas": {
+      "tokens_entrada": 483,
+      "tokens_salida": 123,
+      "latencia_s": 5.634,
+      "latencia_total_s": 7.671,
+      "tokens_s": 104.28
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p02",
+    "pregunta": "¿Cómo me apunto a los desayunos solidarios?",
+    "tipo": "logistica",
+    "ground_truth": "La respuesta debe explicar cómo participar en desayunos solidarios según el corpus.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "Según las fuentes proporcionadas, para apuntarte a los desayunos solidarios, debes seguir estos pasos:\n\n1. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n2. Puedes inscribirte en cualquier día sin necesidad de ir a las próximas actividades, ya que los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales.\n\nNo hay contradicción entre las fuentes proporcionadas, todas coinciden en que no es necesario ir a las próximas actividades si se apunta un día.",
+    "fuentes": [
+      "01_faq_dni.txt",
+      "07_desayunos_logistica.txt",
+      "10_proyectos.txt"
+    ],
+    "chunks": [
+      "Q: ¿Cómo me apunto a los desayunos solidarios?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día a desayunos tengo que ir al resto?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Cómo me apunto a los desayunos?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día tengo que ir siempre?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Cómo funcionan los desayunos solidarios?\nA: Los desayunos solidarios se realizan casi todas las semanas en zona centro de Valencia. Preparamos bocadillos, café, zumo y algo de fruta, y vamos a zonas donde hay personas sin hogar. Lo más importante NO es solo dar comida, sino sentarnos a conversar con ellos, escucharles, conocer sus historias y hacerles sentir acompañados. Cada desayuno dura unas 2-3 horas. Es una experiencia transformadora que cambia tu perspectiva sobre la exclusión social.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía.",
+      "Q: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. La hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar. Nos gusta madrugar un poco para llegar cuando la gente está despertando. Te avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp."
+    ],
+    "metricas": {
+      "tokens_entrada": 886,
+      "tokens_salida": 142,
+      "latencia_s": 3.875,
+      "latencia_total_s": 5.982,
+      "tokens_s": 104.67
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p03",
+    "pregunta": "¿Qué es COLES?",
+    "tipo": "factual",
+    "ground_truth": "COLES es el proyecto de refuerzo escolar de DNI para niños en riesgo de exclusión.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes. La respuesta al parámetro \"COLES\" no está en el contexto proporcionado.",
+    "fuentes": [],
+    "chunks": [
+      "DINÁMICA DE TRABAJO",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "### IMPACTO SOCIAL Y TESTIMONIOS ###",
+      "CHARLAS CON ABUELITOS - PROYECTO DE RESIDENCIAS\n\nINTRODUCCIÓN",
+      "### PREGUNTAS BÁSICAS SOBRE DNI ###\n\nQ: ¿Qué es DNI?\nA: DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa."
+    ],
+    "metricas": {
+      "tokens_entrada": 483,
+      "tokens_salida": 28,
+      "latencia_s": 2.575,
+      "latencia_total_s": 4.639,
+      "tokens_s": 107.73
+    },
+    "calidad_subjetiva": 0.0,
+    "error": null
+  },
+  {
+    "id": "p04",
+    "pregunta": "¿En qué se diferencian RESIS y COLES?",
+    "tipo": "sintesis",
+    "ground_truth": "RESIS se centra en residencias de mayores y COLES en refuerzo escolar para niños.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿En qué se diferencia DNI de otras ONG?\nA: DNI se diferencia por: 1) Ser 100% jóvenes (18-25 años) lo que crea una energía especial, 2) Sin burocracia - te unes por WhatsApp y ya estás dentro, 3) Proyectos directos donde tú eres el protagonista de la ayuda (no intermediarios), 4) Comunidad fuerte - harás amigos con tus mismos valores, 5) Flexibilidad - participas cuando puedas, sin compromisos forzados.",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Cuántas veces puedo participar al mes?\nA: Las que quieras. No hay límite; muchos voluntarios vienen casi todas las semanas.\n\nQ: ¿Qué diferencia hay entre \"desayuno solidario\" y \"cena solidaria\"?\nA: La principal diferencia es la hora y el tipo de alimentos: en los desayunos llevamos café, zumos y bollería; en las cenas, bocadillos y fruta.\n\nQ: ¿Puedo elegir si quiero hacer desayuno o cena?\nA: Sí, cada semana puedes apuntarte al turno que prefieras según tu disponibilidad.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía."
+    ],
+    "metricas": {
+      "tokens_entrada": 890,
+      "tokens_salida": 10,
+      "latencia_s": 2.462,
+      "latencia_total_s": 4.537,
+      "tokens_s": 112.23
+    },
+    "calidad_subjetiva": 0.0,
+    "error": null
+  },
+  {
+    "id": "p05",
+    "pregunta": "¿Qué actividades se hacen en residencias de mayores?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe describir las actividades realizadas con personas mayores en residencias según el corpus.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "Según las fuentes proporcionadas, en residencias de mayores se realizan diversas actividades, como:\n\n* Meriendas\n* Paseos\n* Juegos de mesa\n* Excursiones\n* Manualidades\n* Ir a comprar (coordinado con los profesionales)\n\nTambién se menciona que la actividad semanal de RESIS consiste en visitas por las tardes a las residencias, donde se tratará de amenizar la tarde al residente con conversaciones, paseos o juegos.",
+    "fuentes": [
+      "03_charlas_abuelitos.txt",
+      "05_resis_actividades.txt",
+      "11_horarios_ubicaciones.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO\n\nLa actividad consistirá en unas visitas por las tardes a las residencias de ancianos los días y en el horario que la dirección de la residencia nos asigne. En estas visitas se tratará de amenizar la tarde al residente, ya sea con una conversación, un paseo o un juego.",
+      "Q: ¿Qué tipo de actividades se realizan en residencias?\nA: Meriendas, paseos, juegos de mesa, excursiones y muchas más!!",
+      "Q: ¿Hay transporte organizado para las actividades?\nA: Para actividades en Valencia capital (desayunos solidarios, residencia de abuelitos RESIS, biblioteca COLES) normalmente cada uno llega por su cuenta, ya que suelen ser zonas accesibles en transporte público. La residencia L'Acollida está cerca de Blasco Ibáñez con buenas conexiones de autobús y metro. Lo especificamos siempre en la convocatoria de cada actividad si hay alguna particularidad.",
+      "Q: ¿Qué otras actividades con niños hace DNI?\nA: Además esta actividad semanal a lo largo del año hacemos otras actividades puntuales como Llegada de los Reyes en Navidad o como el Día del Niño en verano este último consiste en llevar a niños de centros de acogida a Terra Mítica a pasar un gran día.",
+      "Q: ¿Solo puedo ir los miércoles o hay otras opciones?\nA: No hay otras opciones para la actividad semanal de RESIS. Solo puedes optar a las actividades puntuales sin compromiso fijo.\n\nQ: ¿Qué tipo de actividades se realizan en la residencia?\nA: Se coordinan con los profesionales: manualidades, juegos de mesa, paseos, o ir a comprar."
+    ],
+    "metricas": {
+      "tokens_entrada": 648,
+      "tokens_salida": 111,
+      "latencia_s": 3.461,
+      "latencia_total_s": 5.515,
+      "tokens_s": 108.02
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p06",
+    "pregunta": "¿Qué valores tiene DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar los valores o la filosofía de DNI según el corpus.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "Según la información proporcionada, los valores fundamentales de DNI son:\n\n* Empatía (ponernos en el lugar del otro)\n* Acción directa (voluntariado práctico sin intermediarios)\n* Comunidad (crear vínculos entre jóvenes con propósito social)\n* Inclusión (todas las personas son bienvenidas)\n* Transformación social (creemos que pequeñas acciones generan grandes cambios)\n\nTambién se menciona que la receta de DNI tiene tres ingredientes principales: Ilusión, Compromiso y Solidaridad.",
+    "fuentes": [
+      "08_preguntas_basicas.txt",
+      "15_desayunos_100_preguntas.txt",
+      "14_impacto_social.txt"
+    ],
+    "chunks": [
+      "Q: ¿Qué valores representa DNI?\nA: Nuestros valores fundamentales son: empatía (ponernos en el lugar del otro), acción directa (voluntariado práctico sin intermediarios), comunidad (crear vínculos entre jóvenes con propósito social), inclusión (todas las personas son bienvenidas) y transformación social (creemos que pequeñas acciones generan grandes cambios). Todo lo hacemos desde la ilusión y la alegría.",
+      "Q: ¿Qué valores mueve a Damos Nuestra Ilusión?\nA: Nuestra receta lleva tres ingredientes principales: Ilusión, Compromiso y Solidaridad. Y un toque joven que hace que cada salida sea especial.\n\nQ: ¿Dónde puedo seguir las actividades o ver fotos del voluntariado?\nA: Estamos activos en Instagram y TikTok. Ahí compartimos vídeos, fotos y experiencias para seguir inspirando a más jóvenes como tú.",
+      "Q: ¿Cuántos voluntarios tiene DNI?\nA: Actualmente tenemos +750 jóvenes interesados en nuestras actividades y +400 voluntarios activos que participan regularmente en nuestros proyectos. Nuestras plazas para actividades (45 por evento típicamente) se llenan en unos 45 minutos, lo que demuestra el alto interés de los jóvenes valencianos por el voluntariado social.",
+      "Q: ¿Qué pasa si no me gusta o no me siento bien?\nA: Está totalmente bien. El voluntariado es una experiencia personal y no a todo el mundo le encaja. Si pruebas DNI y sientes que no es para ti (por el tipo de proyectos, el horario, la dinámica de grupo, etc.), no pasa nada - agradecemos que lo hayas intentado. Algunos voluntarios descubren que prefieren otro tipo de ayuda social (animales, medio ambiente, etc.) y está genial. Lo importante es encontrar TU forma de contribuir. Si tienes dudas o incomodidades, habla con los coordinadores - quizás es solo cuestión de probar otro proyecto de DNI.",
+      "### PREGUNTAS DESAYUNOS - VOLUNTARIADO DNI ###\n\nQ: ¿Qué se hace exactamente en el voluntariado?\nA: Repartimos cenas, desayunos o meriendas solidarias a personas sin hogar por las calles de Valencia. Salimos en grupo junto a un staff, caminamos unos 45-60 minutos y, sobre todo, compartimos momentos, conversación y sonrisas."
+    ],
+    "metricas": {
+      "tokens_entrada": 817,
+      "tokens_salida": 125,
+      "latencia_s": 3.717,
+      "latencia_total_s": 5.77,
+      "tokens_s": 99.26
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p07",
+    "pregunta": "¿Qué proyectos principales tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe mencionar proyectos como desayunos solidarios, residencias de mayores y refuerzo escolar.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "DNI actualmente tiene 3 proyectos principales activos: \n\n1) Desayunos y Cenas Solidarias para personas sin hogar (casi todas las semanas), \n2) Charlas con Abuelitos en residencia L'Acollida (miércoles de 5:30-6:30pm),\n3) Refuerzo Escolar (COLES) en biblioteca tutorizada para niños.",
+    "fuentes": [
+      "10_proyectos.txt",
+      "09_como_participar.txt",
+      "15_desayunos_100_preguntas.txt"
+    ],
+    "chunks": [
+      "### PROYECTOS DE DNI ###\n\nQ: ¿Qué proyectos tiene DNI actualmente?\nA: DNI tiene 3 proyectos principales activos: 1) Desayunos y Cenas Solidarias para personas sin hogar (casi todas las semanas), 2) Charlas con Abuelitos en residencia L'Acollida (miércoles de 5:30-6:30pm), 3) Refuerzo Escolar (COLES) en biblioteca tutorizada para niños.",
+      "Q: ¿Puedo participar en todos los proyectos o tengo que elegir uno?\nA: ¡Puedes participar en todos los proyectos que te interesen! No tienes que limitarte a uno. Muchos voluntarios hacen desayunos algunos fines de semana y visitan abuelitos entre semana. La única excepción es el refuerzo escolar (COLES) que sí requiere más regularidad por el vínculo con los niños. Explora, prueba diferentes proyectos, y quédate con los que más resuenen contigo.",
+      "Q: ¿Puedo proponer ideas o nuevos proyectos?\nA: ¡Por supuesto! DNI es una organización horizontal donde todas las ideas son bienvenidas. Si tienes una propuesta de nuevo proyecto social o mejoras para los actuales, compártela con los coordinadores en el grupo de WhatsApp o en persona. Muchos de nuestros proyectos nacieron de ideas de voluntarios. Creemos en la co-creación y en que todos podemos aportar.",
+      "Q: ¿Cómo se financia el proyecto?\nA: A través de donaciones, campañas solidarias y colaboraciones con empresas o locales de Valencia.\n\nQ: ¿Cómo puedo donar dinero o alimentos?\nA: Puedes escribirnos por Instagram o WhatsApp, y te explicamos las opciones seguras de colaboración.\n\nQ: ¿El proyecto pertenece a alguna ONG grande?\nA: No, es un movimiento independiente, nacido en Valencia y gestionado por jóvenes voluntarios.",
+      "Q: ¿Qué proyecto es mejor para empezar?\nA: Para empezar te recomendamos los desayunos solidarios o las visitas a abuelitos (RESIS). Son proyectos muy accesibles, no requieren formación previa, y te dan una experiencia completa de lo que es DNI. Los desayunos son más esporádicos (ideales si tienes poco tiempo), mientras que los abuelitos permiten crear vínculos más profundos si puedes ir regularmente. ¡Elige según tu disponibilidad y preferencias!"
+    ],
+    "metricas": {
+      "tokens_entrada": 799,
+      "tokens_salida": 88,
+      "latencia_s": 3.273,
+      "latencia_total_s": 5.336,
+      "tokens_s": 105.54
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p08",
+    "pregunta": "¿A qué hora son los desayunos solidarios?",
+    "tipo": "contradiccion",
+    "ground_truth": "La respuesta debe indicar el horario encontrado en las fuentes y, si hay contradicción, mostrar ambas versiones.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "Según la información disponible, hay una contradicción entre las fuentes.\n\nLa Fuente 11_horarios_ubicaciones.txt indica que los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. También menciona que la hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar.\n\nPor otro lado, la Fuente 07_desayunos_logistica.txt indica que los desayunos son a las 8 de la mañana.\n\nLa respuesta correcta sería: \"Hay una contradicción entre las fuentes. La Fuente 11_horarios_ubicaciones.txt menciona un rango de horas (9:00-12:00h) y la Fuente 07_desayunos_logistica.txt indica una hora específica (8 de la mañana)\".",
+    "fuentes": [
+      "11_horarios_ubicaciones.txt",
+      "10_proyectos.txt",
+      "07_desayunos_logistica.txt"
+    ],
+    "chunks": [
+      "Q: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. La hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar. Nos gusta madrugar un poco para llegar cuando la gente está despertando. Te avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp.",
+      "Q: ¿Cómo funcionan los desayunos solidarios?\nA: Los desayunos solidarios se realizan casi todas las semanas en zona centro de Valencia. Preparamos bocadillos, café, zumo y algo de fruta, y vamos a zonas donde hay personas sin hogar. Lo más importante NO es solo dar comida, sino sentarnos a conversar con ellos, escucharles, conocer sus historias y hacerles sentir acompañados. Cada desayuno dura unas 2-3 horas. Es una experiencia transformadora que cambia tu perspectiva sobre la exclusión social.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía.",
+      "Q: ¿Cómo me apunto a los desayunos solidarios?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día a desayunos tengo que ir al resto?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Dónde es el punto de encuentro para desayunos?\nA: El punto de encuentro siempre es la Porta de la Mar de Valencia. Desde ahí repartimos los alimentos por las zonas de Mestalla, el centro, El Carmen o el río entre otros.\n\nQ: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos son a las 8 de la mañana y las cenas a las ocho y media de la tarde (20:30)."
+    ],
+    "metricas": {
+      "tokens_entrada": 868,
+      "tokens_salida": 200,
+      "latencia_s": 4.501,
+      "latencia_total_s": 6.558,
+      "tokens_s": 102.86
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p09",
+    "pregunta": "¿Cuál es el teléfono personal del presidente de DNI?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Qué hacemos con los abuelitos?\nA: En la residencia L'Acollida visitamos a los ancianos todos los miércoles de 5:30 a 6:30 de la tarde. Las actividades incluyen: paseos por el jardín, juegos de mesa (parchís, cartas, dominó), conversaciones sobre sus historias de vida, lectura de periódicos, cantar canciones antiguas, manualidades simples, y simplemente hacerles compañía. Lo que más valoran es la atención individualizada - que alguien joven se interese por ellos y les dedique tiempo con cariño.",
+      "JUSTIFICACIÓN\n\nEl proyecto \"Charlas con abuelitos\" es una respuesta a la falta de atención que se vive en gran parte de las residencias valencianas. Trata de llenar esa falta de atención a los ancianos que no es profesional, sino social y familiar.\n\nPor otro lado también se busca revalorizar esta figura del anciano dentro la sociedad. Ayudar a la juventud a descubrir el valor que todas estas personas atesoran resaltando la importancia de los mayores en nuestra sociedad.\n\nOBJETIVOS",
+      "Q: ¿Por qué debería unirme a DNI?\nA: Unirte a DNI te cambia la vida en múltiples niveles: 1) Impacto real - verás directamente cómo tu ayuda mejora la vida de personas sin hogar, ancianos solos, niños en dificultades, 2) Comunidad - harás amigos con tus mismos valores, gente increíble de 18-25 años, 3) Crecimiento personal - desarrollarás empatía, liderazgo, trabajo en equipo, 4) Propósito - sentirás que tu tiempo importa y genera cambio positivo, 5) Diversión - ¡el voluntariado con DNI es alegre, dinámico y lleno de buenas vibras! Ven a una actividad y lo experimentarás. 💙",
+      "Q: ¿Qué hago si un residente me pide algo personal?\nA: Debes comunicarlo al responsable. No se deben asumir compromisos individuales.\n\nQ: ¿Qué actitud se espera de un voluntario?\nA: Respeto, empatía, puntualidad y entusiasmo por compartir tiempo con los mayores.\n\nQ: ¿Puedo participar si tengo exámenes o trabajo?\nA: Sí, siempre que te organices y avises si un día no puedes asistir."
+    ],
+    "metricas": {
+      "tokens_entrada": 1008,
+      "tokens_salida": 10,
+      "latencia_s": 2.47,
+      "latencia_total_s": 4.535,
+      "tokens_s": 109.81
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p10",
+    "pregunta": "¿Cuánto cuesta el alquiler en Valencia?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿Cómo contacto con alguien de la asociación?\nA: La mejor manera es entrar en el grupo de WhatsApp. Escribe a alguno de los administradores y ellos te redirigirán o te resolverán la pregunta.\n\nQ: ¿Puedo contactar con algún voluntario que me cuente su experiencia?\nA: Claro que sí. Pídeselo a alguien de la asociación y te pasará el contacto de un voluntario o exvoluntario.\n\nQ: ¿Necesito algún tipo de formación para acudir?\nA: No, no es necesaria ninguna formación previa.",
+      "Q: ¿Qué pasa si alguien se siente mal durante el recorrido?\nA: Paramos, lo atendemos y, si hace falta, pedimos ayuda. Siempre salimos acompañados para mayor seguridad.\n\nQ: ¿Hay que llevar dinero?\nA: No, todo lo necesario lo aporta la organización. Solo lleva lo justo para tomar algo después si te apetece.\n\nQ: ¿Qué hago si quiero unirme al equipo organizador?\nA: Participa varias veces y coméntalo con un miembro del staff. Buscamos personas comprometidas y con ganas de aportar.",
+      "Q: ¿Qué otras actividades con niños hace DNI?\nA: Además esta actividad semanal a lo largo del año hacemos otras actividades puntuales como Llegada de los Reyes en Navidad o como el Día del Niño en verano este último consiste en llevar a niños de centros de acogida a Terra Mítica a pasar un gran día.",
+      "DNI busca dejar un mundo mejor, aspira a ayudar al vecino, no pretende irse muy lejos para conseguir hacer algo bueno, porque siempre tendremos a una persona cerca que nos está esperando. No pretende ser importante, sino meterse en tu día a día, habituarte a parar, enseñarte a mirar, con cariño y cercanía, y ofrecer la máxima ayuda, sacando lo mejor de nosotros mismos.",
+      "Q: ¿Cuánto dura cada voluntariado más o menos?\nA: Cada salida dura entre una hora y hora y media, dependiendo del ritmo del grupo y de las personas con las que coincidamos durante el recorrido. Luego tomamos algo y puedes quedarte todo lo que quieras.\n\nQ: ¿Hace falta llevar algo especial (ropa, calzado, mochila…)?\nA: Solo recomendamos llevar ropa cómoda y calzado adecuado para caminar, y muchas ganas de ayudar e ilusión!"
+    ],
+    "metricas": {
+      "tokens_entrada": 840,
+      "tokens_salida": 10,
+      "latencia_s": 2.447,
+      "latencia_total_s": 4.509,
+      "tokens_s": 115.51
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p11",
+    "pregunta": "¿Qué impacto social tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe resumir el impacto social de DNI usando información del corpus.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "Según la información proporcionada, DNI tiene un impacto social significativo en la comunidad. Se menciona que los +400 voluntarios activos y las cientos de personas beneficiadas cada semana son una prueba de que sí, tu ayuda importa y transforma vidas.\n\nAdemás, se destaca la importancia del impacto directo, donde los voluntarios pueden ver con sus propios ojos las consecuencias de su trabajo. Se menciona que DNI practica el impacto directo, donde tú eres quien da el desayuno, conversas con el anciano, ayuda al niño con los deberos, sin intermediarios.\n\nNo hay más información específica sobre el alcance o la magnitud del impacto social de DNI.",
+    "fuentes": [
+      "12_contacto_redes.txt",
+      "08_preguntas_basicas.txt",
+      "16_resis_49_preguntas.txt"
+    ],
+    "chunks": [
+      "Q: ¿DNI tiene redes sociales?\nA: Sí, nuestra red social principal es Instagram: @dnivalenciaa donde tenemos +2,077 seguidores. Allí publicamos fotos de nuestras actividades, convocatorias de nuevos proyectos, historias inspiradoras de voluntarios, y todo lo que pasa en DNI. ¡Síguenos para estar al día! También usamos WhatsApp intensivamente para la coordinación directa entre voluntarios. Nuestra web es damosnuestrailusionvlc.org.",
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Qué se hace en fechas especiales como Navidad o Fallas?\nA: Se preparan actividades temáticas, regalos o decoraciones con los mayores.\n\nQ: ¿Hay alguna reunión o formación antes de empezar?\nA: Sí, el responsable te explicará cómo interactuar y las normas básicas.\n\nQ: ¿Cuánto tiempo se recomienda participar para notar impacto?\nA: Al menos un trimestre, aunque muchos voluntarios continúan todo el curso.",
+      "Q: ¿Cómo sé que mi ayuda realmente sirve?\nA: En DNI practicamos el impacto directo - TÚ eres quien da el desayuno, conversa con el anciano, ayuda al niño con los deberes. No hay intermediarios. Verás con tus propios ojos las sonrisas, escucharás los \"gracias\", sentirás los abrazos. Nuestros +400 voluntarios activos y las cientos de personas beneficiadas cada semana son la prueba de que sí, tu ayuda importa y transforma vidas. Además, compartimos historias reales e impacto medible en nuestro Instagram @dnivalenciaa.",
+      "Q: ¿Puedo ir solo/a o necesito ir con amigos?\nA: ¡Puedes venir solo/a sin problema! De hecho, muchos voluntarios vienen sin conocer a nadie y hacen grandes amigos en DNI. Somos una comunidad muy acogedora - en tu primera actividad te presentaremos al grupo y te sentirás como en casa rápidamente. Y si quieres venir con amigos, ¡mejor aún! Podéis vivir la experiencia juntos."
+    ],
+    "metricas": {
+      "tokens_entrada": 912,
+      "tokens_salida": 161,
+      "latencia_s": 4.075,
+      "latencia_total_s": 6.186,
+      "tokens_s": 103.87
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p12",
+    "pregunta": "¿Quién puede ser voluntario en DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar quién puede participar como voluntario según el corpus.",
+    "modelo": "llama3.2:3b",
+    "servidor": "ollama_local",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "4. Llevar este voluntariado fuera de la asociación: a partir de la concienciación de los voluntarios que estos traten de ayudar a estas personas siempre que puedan en el día a día. Prestando su ayuda o simplemente saludando con una sonrisa.",
+      "Q: ¿Qué gano yo siendo voluntario?\nA: Aunque el voluntariado es dar sin esperar nada a cambio, la realidad es que recibes mucho: experiencias transformadoras que cambian tu perspectiva de vida, habilidades blandas valoradas en el mercado laboral (comunicación, empatía, resolución de problemas), una red de contactos y amistades profundas, satisfacción personal y sentido de propósito, historias increíbles que contar, y sobre todo, la alegría de ver sonreír a alguien gracias a ti. Como dicen nuestros voluntarios: \"Vienes a ayudar y acabas siendo tú el ayudado\". ❤️",
+      "Q: ¿Hace falta ser ciudadano español para realizar el voluntariado?\nA: No, no hace falta ser ciudadano español.\n\nQ: ¿De dónde sale el dinero de la asociación?\nA: De las subvenciones del Estado. El voluntario no necesita hacer ninguna donación.\n\nQ: ¿Qué tengo que hacer si surge algún gasto imprevisto?\nA: Contactar inmediatamente con el responsable de la asociación. Él se encargará de solucionarlo. En ningún caso el voluntario tiene que aportar dinero.",
+      "Q: ¿Qué dicen otros voluntarios de DNI?\nA: Nuestros voluntarios destacan tres cosas: 1) \"DNI es mi segunda familia\" - la comunidad es super unida y acogedora, 2) \"Cambió mi forma de ver el mundo\" - el voluntariado te hace más empático y consciente, 3) \"Es lo mejor que hago en la semana\" - a pesar de estudios/trabajo, el tiempo en DNI les recarga de energía positiva. Muchos empezaron hace años como voluntarios nuevos y ahora son coordinadores. Las plazas se llenan en 45 minutos porque la experiencia es genuinamente transformadora.",
+      "Q: ¿Qué pasa si no me gusta o no me siento bien?\nA: Está totalmente bien. El voluntariado es una experiencia personal y no a todo el mundo le encaja. Si pruebas DNI y sientes que no es para ti (por el tipo de proyectos, el horario, la dinámica de grupo, etc.), no pasa nada - agradecemos que lo hayas intentado. Algunos voluntarios descubren que prefieren otro tipo de ayuda social (animales, medio ambiente, etc.) y está genial. Lo importante es encontrar TU forma de contribuir. Si tienes dudas o incomodidades, habla con los coordinadores - quizás es solo cuestión de probar otro proyecto de DNI."
+    ],
+    "metricas": {
+      "tokens_entrada": 903,
+      "tokens_salida": 10,
+      "latencia_s": 2.459,
+      "latencia_total_s": 4.516,
+      "tokens_s": 110.67
+    },
+    "calidad_subjetiva": 0.0,
+    "error": null
+  },
+  {
+    "id": "p01",
+    "pregunta": "¿Qué es DNI?",
+    "tipo": "factual",
+    "ground_truth": "DNI es una asociación de jóvenes voluntarios en Valencia que realiza proyectos sociales como desayunos solidarios, RESIS y COLES.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa.",
+    "fuentes": [
+      "02_presentacion_desayunos.txt",
+      "03_charlas_abuelitos.txt",
+      "04_filosofia_dni.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "### IMPACTO SOCIAL Y TESTIMONIOS ###",
+      "CHARLAS CON ABUELITOS - PROYECTO DE RESIDENCIAS\n\nINTRODUCCIÓN",
+      "### PREGUNTAS BÁSICAS SOBRE DNI ###\n\nQ: ¿Qué es DNI?\nA: DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa."
+    ],
+    "metricas": {
+      "tokens_entrada": 399,
+      "tokens_salida": 797,
+      "latencia_s": 5.449,
+      "latencia_total_s": 7.511,
+      "tokens_s": 146.27
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p02",
+    "pregunta": "¿Cómo me apunto a los desayunos solidarios?",
+    "tipo": "logistica",
+    "ground_truth": "La respuesta debe explicar cómo participar en desayunos solidarios según el corpus.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.",
+    "fuentes": [
+      "01_faq_dni.txt",
+      "07_desayunos_logistica.txt",
+      "10_proyectos.txt"
+    ],
+    "chunks": [
+      "Q: ¿Cómo me apunto a los desayunos solidarios?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día a desayunos tengo que ir al resto?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Cómo me apunto a los desayunos?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día tengo que ir siempre?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Cómo funcionan los desayunos solidarios?\nA: Los desayunos solidarios se realizan casi todas las semanas en zona centro de Valencia. Preparamos bocadillos, café, zumo y algo de fruta, y vamos a zonas donde hay personas sin hogar. Lo más importante NO es solo dar comida, sino sentarnos a conversar con ellos, escucharles, conocer sus historias y hacerles sentir acompañados. Cada desayuno dura unas 2-3 horas. Es una experiencia transformadora que cambia tu perspectiva sobre la exclusión social.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía.",
+      "Q: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. La hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar. Nos gusta madrugar un poco para llegar cuando la gente está despertando. Te avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp."
+    ],
+    "metricas": {
+      "tokens_entrada": 777,
+      "tokens_salida": 1025,
+      "latencia_s": 6.676,
+      "latencia_total_s": 8.748,
+      "tokens_s": 153.54
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p03",
+    "pregunta": "¿Qué es COLES?",
+    "tipo": "factual",
+    "ground_truth": "COLES es el proyecto de refuerzo escolar de DNI para niños en riesgo de exclusión.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "Según el contexto proporcionado, COLES es el proyecto de refuerzo escolar de la asociación.",
+    "fuentes": [
+      "02_presentacion_desayunos.txt",
+      "03_charlas_abuelitos.txt",
+      "04_filosofia_dni.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "### IMPACTO SOCIAL Y TESTIMONIOS ###",
+      "CHARLAS CON ABUELITOS - PROYECTO DE RESIDENCIAS\n\nINTRODUCCIÓN",
+      "### PREGUNTAS BÁSICAS SOBRE DNI ###\n\nQ: ¿Qué es DNI?\nA: DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa."
+    ],
+    "metricas": {
+      "tokens_entrada": 399,
+      "tokens_salida": 1294,
+      "latencia_s": 8.245,
+      "latencia_total_s": 10.321,
+      "tokens_s": 156.94
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p04",
+    "pregunta": "¿En qué se diferencian RESIS y COLES?",
+    "tipo": "sintesis",
+    "ground_truth": "RESIS se centra en residencias de mayores y COLES en refuerzo escolar para niños.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿En qué se diferencia DNI de otras ONG?\nA: DNI se diferencia por: 1) Ser 100% jóvenes (18-25 años) lo que crea una energía especial, 2) Sin burocracia - te unes por WhatsApp y ya estás dentro, 3) Proyectos directos donde tú eres el protagonista de la ayuda (no intermediarios), 4) Comunidad fuerte - harás amigos con tus mismos valores, 5) Flexibilidad - participas cuando puedas, sin compromisos forzados.",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Cuántas veces puedo participar al mes?\nA: Las que quieras. No hay límite; muchos voluntarios vienen casi todas las semanas.\n\nQ: ¿Qué diferencia hay entre \"desayuno solidario\" y \"cena solidaria\"?\nA: La principal diferencia es la hora y el tipo de alimentos: en los desayunos llevamos café, zumos y bollería; en las cenas, bocadillos y fruta.\n\nQ: ¿Puedo elegir si quiero hacer desayuno o cena?\nA: Sí, cada semana puedes apuntarte al turno que prefieras según tu disponibilidad.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía."
+    ],
+    "metricas": {
+      "tokens_entrada": 775,
+      "tokens_salida": 561,
+      "latencia_s": 3.746,
+      "latencia_total_s": 5.809,
+      "tokens_s": 149.76
+    },
+    "calidad_subjetiva": 0.0,
+    "error": null
+  },
+  {
+    "id": "p05",
+    "pregunta": "¿Qué actividades se hacen en residencias de mayores?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe describir las actividades realizadas con personas mayores en residencias según el corpus.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "Según la información proporcionada, en las residencias de mayores se realizan actividades como conversaciones, paseos, juegos, meriendas, juegos de mesa, excursiones, manualidades e ir a comprar. Estas actividades se coordinan con los profesionales de la residencia.",
+    "fuentes": [
+      "03_charlas_abuelitos.txt",
+      "05_resis_actividades.txt",
+      "06_coles_refuerzo.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO\n\nLa actividad consistirá en unas visitas por las tardes a las residencias de ancianos los días y en el horario que la dirección de la residencia nos asigne. En estas visitas se tratará de amenizar la tarde al residente, ya sea con una conversación, un paseo o un juego.",
+      "Q: ¿Qué tipo de actividades se realizan en residencias?\nA: Meriendas, paseos, juegos de mesa, excursiones y muchas más!!",
+      "Q: ¿Hay transporte organizado para las actividades?\nA: Para actividades en Valencia capital (desayunos solidarios, residencia de abuelitos RESIS, biblioteca COLES) normalmente cada uno llega por su cuenta, ya que suelen ser zonas accesibles en transporte público. La residencia L'Acollida está cerca de Blasco Ibáñez con buenas conexiones de autobús y metro. Lo especificamos siempre en la convocatoria de cada actividad si hay alguna particularidad.",
+      "Q: ¿Qué otras actividades con niños hace DNI?\nA: Además esta actividad semanal a lo largo del año hacemos otras actividades puntuales como Llegada de los Reyes en Navidad o como el Día del Niño en verano este último consiste en llevar a niños de centros de acogida a Terra Mítica a pasar un gran día.",
+      "Q: ¿Solo puedo ir los miércoles o hay otras opciones?\nA: No hay otras opciones para la actividad semanal de RESIS. Solo puedes optar a las actividades puntuales sin compromiso fijo.\n\nQ: ¿Qué tipo de actividades se realizan en la residencia?\nA: Se coordinan con los profesionales: manualidades, juegos de mesa, paseos, o ir a comprar."
+    ],
+    "metricas": {
+      "tokens_entrada": 554,
+      "tokens_salida": 1255,
+      "latencia_s": 8.107,
+      "latencia_total_s": 10.167,
+      "tokens_s": 154.8
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p06",
+    "pregunta": "¿Qué valores tiene DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar los valores o la filosofía de DNI según el corpus.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "Según el contexto, los valores fundamentales que representa DNI son: empatía (ponerse en el lugar del otro), acción directa (voluntariado práctico sin intermediarios), comunidad (crear vínculos entre jóvenes con propósito social), inclusión (todas las personas son bienvenidas) y transformación social (creer que pequeñas acciones generan grandes cambios). Todo lo realizan desde la ilusión y la alegría. \n\n*(Nota: En otra fuente se complementa esta información mencionando que los ingredientes principales que los mueven son la Ilusión, el Compromiso y la Solidaridad, con un toque joven).*",
+    "fuentes": [
+      "08_preguntas_basicas.txt",
+      "14_impacto_social.txt",
+      "15_desayunos_100_preguntas.txt"
+    ],
+    "chunks": [
+      "Q: ¿Qué valores representa DNI?\nA: Nuestros valores fundamentales son: empatía (ponernos en el lugar del otro), acción directa (voluntariado práctico sin intermediarios), comunidad (crear vínculos entre jóvenes con propósito social), inclusión (todas las personas son bienvenidas) y transformación social (creemos que pequeñas acciones generan grandes cambios). Todo lo hacemos desde la ilusión y la alegría.",
+      "Q: ¿Qué valores mueve a Damos Nuestra Ilusión?\nA: Nuestra receta lleva tres ingredientes principales: Ilusión, Compromiso y Solidaridad. Y un toque joven que hace que cada salida sea especial.\n\nQ: ¿Dónde puedo seguir las actividades o ver fotos del voluntariado?\nA: Estamos activos en Instagram y TikTok. Ahí compartimos vídeos, fotos y experiencias para seguir inspirando a más jóvenes como tú.",
+      "Q: ¿Cuántos voluntarios tiene DNI?\nA: Actualmente tenemos +750 jóvenes interesados en nuestras actividades y +400 voluntarios activos que participan regularmente en nuestros proyectos. Nuestras plazas para actividades (45 por evento típicamente) se llenan en unos 45 minutos, lo que demuestra el alto interés de los jóvenes valencianos por el voluntariado social.",
+      "Q: ¿Qué pasa si no me gusta o no me siento bien?\nA: Está totalmente bien. El voluntariado es una experiencia personal y no a todo el mundo le encaja. Si pruebas DNI y sientes que no es para ti (por el tipo de proyectos, el horario, la dinámica de grupo, etc.), no pasa nada - agradecemos que lo hayas intentado. Algunos voluntarios descubren que prefieren otro tipo de ayuda social (animales, medio ambiente, etc.) y está genial. Lo importante es encontrar TU forma de contribuir. Si tienes dudas o incomodidades, habla con los coordinadores - quizás es solo cuestión de probar otro proyecto de DNI.",
+      "### PREGUNTAS DESAYUNOS - VOLUNTARIADO DNI ###\n\nQ: ¿Qué se hace exactamente en el voluntariado?\nA: Repartimos cenas, desayunos o meriendas solidarias a personas sin hogar por las calles de Valencia. Salimos en grupo junto a un staff, caminamos unos 45-60 minutos y, sobre todo, compartimos momentos, conversación y sonrisas."
+    ],
+    "metricas": {
+      "tokens_entrada": 704,
+      "tokens_salida": 1944,
+      "latencia_s": 12.335,
+      "latencia_total_s": 14.443,
+      "tokens_s": 157.6
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p07",
+    "pregunta": "¿Qué proyectos principales tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe mencionar proyectos como desayunos solidarios, residencias de mayores y refuerzo escolar.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "DNI tiene 3 proyectos principales activos:\n1) Desayunos y Cenas Solidarias para personas sin hogar (casi todas las semanas).\n2) Charlas con Abuelitos en residencia L'Acollida (miércoles de 5:30-6:30pm).\n3) Refuerzo Escolar (COLES) en biblioteca tutorizada para niños.",
+    "fuentes": [
+      "09_como_participar.txt",
+      "10_proyectos.txt",
+      "15_desayunos_100_preguntas.txt"
+    ],
+    "chunks": [
+      "### PROYECTOS DE DNI ###\n\nQ: ¿Qué proyectos tiene DNI actualmente?\nA: DNI tiene 3 proyectos principales activos: 1) Desayunos y Cenas Solidarias para personas sin hogar (casi todas las semanas), 2) Charlas con Abuelitos en residencia L'Acollida (miércoles de 5:30-6:30pm), 3) Refuerzo Escolar (COLES) en biblioteca tutorizada para niños.",
+      "Q: ¿Puedo participar en todos los proyectos o tengo que elegir uno?\nA: ¡Puedes participar en todos los proyectos que te interesen! No tienes que limitarte a uno. Muchos voluntarios hacen desayunos algunos fines de semana y visitan abuelitos entre semana. La única excepción es el refuerzo escolar (COLES) que sí requiere más regularidad por el vínculo con los niños. Explora, prueba diferentes proyectos, y quédate con los que más resuenen contigo.",
+      "Q: ¿Puedo proponer ideas o nuevos proyectos?\nA: ¡Por supuesto! DNI es una organización horizontal donde todas las ideas son bienvenidas. Si tienes una propuesta de nuevo proyecto social o mejoras para los actuales, compártela con los coordinadores en el grupo de WhatsApp o en persona. Muchos de nuestros proyectos nacieron de ideas de voluntarios. Creemos en la co-creación y en que todos podemos aportar.",
+      "Q: ¿Cómo se financia el proyecto?\nA: A través de donaciones, campañas solidarias y colaboraciones con empresas o locales de Valencia.\n\nQ: ¿Cómo puedo donar dinero o alimentos?\nA: Puedes escribirnos por Instagram o WhatsApp, y te explicamos las opciones seguras de colaboración.\n\nQ: ¿El proyecto pertenece a alguna ONG grande?\nA: No, es un movimiento independiente, nacido en Valencia y gestionado por jóvenes voluntarios.",
+      "Q: ¿Qué proyecto es mejor para empezar?\nA: Para empezar te recomendamos los desayunos solidarios o las visitas a abuelitos (RESIS). Son proyectos muy accesibles, no requieren formación previa, y te dan una experiencia completa de lo que es DNI. Los desayunos son más esporádicos (ideales si tienes poco tiempo), mientras que los abuelitos permiten crear vínculos más profundos si puedes ir regularmente. ¡Elige según tu disponibilidad y preferencias!"
+    ],
+    "metricas": {
+      "tokens_entrada": 702,
+      "tokens_salida": 620,
+      "latencia_s": 4.13,
+      "latencia_total_s": 6.215,
+      "tokens_s": 150.12
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p08",
+    "pregunta": "¿A qué hora son los desayunos solidarios?",
+    "tipo": "contradiccion",
+    "ground_truth": "La respuesta debe indicar el horario encontrado en las fuentes y, si hay contradicción, mostrar ambas versiones.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "Hay una contradicción entre las fuentes respecto a la hora exacta:\n- Según [Fuente: 11_horarios_ubicaciones.txt], los desayunos suelen ser típicamente entre las 9:00-12:00h, y la hora exacta varía según la zona y la coordinación, avisándose con antelación en el grupo de WhatsApp.\n- Según [Fuente: 01_faq_dni.txt], los desayunos son a las 8 de la mañana.\n\nTe avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp.",
+    "fuentes": [
+      "01_faq_dni.txt",
+      "07_desayunos_logistica.txt",
+      "10_proyectos.txt"
+    ],
+    "chunks": [
+      "Q: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. La hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar. Nos gusta madrugar un poco para llegar cuando la gente está despertando. Te avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp.",
+      "Q: ¿Cómo funcionan los desayunos solidarios?\nA: Los desayunos solidarios se realizan casi todas las semanas en zona centro de Valencia. Preparamos bocadillos, café, zumo y algo de fruta, y vamos a zonas donde hay personas sin hogar. Lo más importante NO es solo dar comida, sino sentarnos a conversar con ellos, escucharles, conocer sus historias y hacerles sentir acompañados. Cada desayuno dura unas 2-3 horas. Es una experiencia transformadora que cambia tu perspectiva sobre la exclusión social.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía.",
+      "Q: ¿Cómo me apunto a los desayunos solidarios?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día a desayunos tengo que ir al resto?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Dónde es el punto de encuentro para desayunos?\nA: El punto de encuentro siempre es la Porta de la Mar de Valencia. Desde ahí repartimos los alimentos por las zonas de Mestalla, el centro, El Carmen o el río entre otros.\n\nQ: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos son a las 8 de la mañana y las cenas a las ocho y media de la tarde (20:30)."
+    ],
+    "metricas": {
+      "tokens_entrada": 765,
+      "tokens_salida": 2010,
+      "latencia_s": 12.767,
+      "latencia_total_s": 14.851,
+      "tokens_s": 157.44
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p09",
+    "pregunta": "¿Cuál es el teléfono personal del presidente de DNI?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Qué hacemos con los abuelitos?\nA: En la residencia L'Acollida visitamos a los ancianos todos los miércoles de 5:30 a 6:30 de la tarde. Las actividades incluyen: paseos por el jardín, juegos de mesa (parchís, cartas, dominó), conversaciones sobre sus historias de vida, lectura de periódicos, cantar canciones antiguas, manualidades simples, y simplemente hacerles compañía. Lo que más valoran es la atención individualizada - que alguien joven se interese por ellos y les dedique tiempo con cariño.",
+      "JUSTIFICACIÓN\n\nEl proyecto \"Charlas con abuelitos\" es una respuesta a la falta de atención que se vive en gran parte de las residencias valencianas. Trata de llenar esa falta de atención a los ancianos que no es profesional, sino social y familiar.\n\nPor otro lado también se busca revalorizar esta figura del anciano dentro la sociedad. Ayudar a la juventud a descubrir el valor que todas estas personas atesoran resaltando la importancia de los mayores en nuestra sociedad.\n\nOBJETIVOS",
+      "Q: ¿Por qué debería unirme a DNI?\nA: Unirte a DNI te cambia la vida en múltiples niveles: 1) Impacto real - verás directamente cómo tu ayuda mejora la vida de personas sin hogar, ancianos solos, niños en dificultades, 2) Comunidad - harás amigos con tus mismos valores, gente increíble de 18-25 años, 3) Crecimiento personal - desarrollarás empatía, liderazgo, trabajo en equipo, 4) Propósito - sentirás que tu tiempo importa y genera cambio positivo, 5) Diversión - ¡el voluntariado con DNI es alegre, dinámico y lleno de buenas vibras! Ven a una actividad y lo experimentarás. 💙",
+      "Q: ¿Qué hago si un residente me pide algo personal?\nA: Debes comunicarlo al responsable. No se deben asumir compromisos individuales.\n\nQ: ¿Qué actitud se espera de un voluntario?\nA: Respeto, empatía, puntualidad y entusiasmo por compartir tiempo con los mayores.\n\nQ: ¿Puedo participar si tengo exámenes o trabajo?\nA: Sí, siempre que te organices y avises si un día no puedes asistir."
+    ],
+    "metricas": {
+      "tokens_entrada": 858,
+      "tokens_salida": 997,
+      "latencia_s": 6.473,
+      "latencia_total_s": 8.565,
+      "tokens_s": 154.02
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p10",
+    "pregunta": "¿Cuánto cuesta el alquiler en Valencia?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿Cómo contacto con alguien de la asociación?\nA: La mejor manera es entrar en el grupo de WhatsApp. Escribe a alguno de los administradores y ellos te redirigirán o te resolverán la pregunta.\n\nQ: ¿Puedo contactar con algún voluntario que me cuente su experiencia?\nA: Claro que sí. Pídeselo a alguien de la asociación y te pasará el contacto de un voluntario o exvoluntario.\n\nQ: ¿Necesito algún tipo de formación para acudir?\nA: No, no es necesaria ninguna formación previa.",
+      "Q: ¿Qué pasa si alguien se siente mal durante el recorrido?\nA: Paramos, lo atendemos y, si hace falta, pedimos ayuda. Siempre salimos acompañados para mayor seguridad.\n\nQ: ¿Hay que llevar dinero?\nA: No, todo lo necesario lo aporta la organización. Solo lleva lo justo para tomar algo después si te apetece.\n\nQ: ¿Qué hago si quiero unirme al equipo organizador?\nA: Participa varias veces y coméntalo con un miembro del staff. Buscamos personas comprometidas y con ganas de aportar.",
+      "Q: ¿Qué otras actividades con niños hace DNI?\nA: Además esta actividad semanal a lo largo del año hacemos otras actividades puntuales como Llegada de los Reyes en Navidad o como el Día del Niño en verano este último consiste en llevar a niños de centros de acogida a Terra Mítica a pasar un gran día.",
+      "DNI busca dejar un mundo mejor, aspira a ayudar al vecino, no pretende irse muy lejos para conseguir hacer algo bueno, porque siempre tendremos a una persona cerca que nos está esperando. No pretende ser importante, sino meterse en tu día a día, habituarte a parar, enseñarte a mirar, con cariño y cercanía, y ofrecer la máxima ayuda, sacando lo mejor de nosotros mismos.",
+      "Q: ¿Cuánto dura cada voluntariado más o menos?\nA: Cada salida dura entre una hora y hora y media, dependiendo del ritmo del grupo y de las personas con las que coincidamos durante el recorrido. Luego tomamos algo y puedes quedarte todo lo que quieras.\n\nQ: ¿Hace falta llevar algo especial (ropa, calzado, mochila…)?\nA: Solo recomendamos llevar ropa cómoda y calzado adecuado para caminar, y muchas ganas de ayudar e ilusión!"
+    ],
+    "metricas": {
+      "tokens_entrada": 718,
+      "tokens_salida": 1075,
+      "latencia_s": 6.97,
+      "latencia_total_s": 9.059,
+      "tokens_s": 154.23
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p11",
+    "pregunta": "¿Qué impacto social tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe resumir el impacto social de DNI usando información del corpus.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "Según la información proporcionada, DNI practica un **impacto social directo** sin intermediarios. Los voluntarios realizan acciones concretas como dar desayunos, conversar con personas mayores y ayudar a niños con los deberes, lo que genera sonrisas, agradecimientos y abrazos. \n\nEsta labor cuenta con más de 400 voluntarios activos y beneficia a cientos de personas cada semana, transformando vidas de manera tangible. Además, comparten historias reales e impacto medible en su Instagram (@dnivalenciaa) y organizan actividades temáticas, regalos o decoraciones con los mayores en fechas especiales como Navidad o Fallas. \n\nTodo esto se enmarca en su filosofía de \"PARA. MIRA. AYUDA.\", basada en el voluntariado sin burocracia de jóvenes de 18 a 25 años que buscan generar un impacto social real.",
+    "fuentes": [
+      "08_preguntas_basicas.txt",
+      "09_como_participar.txt",
+      "12_contacto_redes.txt"
+    ],
+    "chunks": [
+      "Q: ¿DNI tiene redes sociales?\nA: Sí, nuestra red social principal es Instagram: @dnivalenciaa donde tenemos +2,077 seguidores. Allí publicamos fotos de nuestras actividades, convocatorias de nuevos proyectos, historias inspiradoras de voluntarios, y todo lo que pasa en DNI. ¡Síguenos para estar al día! También usamos WhatsApp intensivamente para la coordinación directa entre voluntarios. Nuestra web es damosnuestrailusionvlc.org.",
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Qué se hace en fechas especiales como Navidad o Fallas?\nA: Se preparan actividades temáticas, regalos o decoraciones con los mayores.\n\nQ: ¿Hay alguna reunión o formación antes de empezar?\nA: Sí, el responsable te explicará cómo interactuar y las normas básicas.\n\nQ: ¿Cuánto tiempo se recomienda participar para notar impacto?\nA: Al menos un trimestre, aunque muchos voluntarios continúan todo el curso.",
+      "Q: ¿Cómo sé que mi ayuda realmente sirve?\nA: En DNI practicamos el impacto directo - TÚ eres quien da el desayuno, conversa con el anciano, ayuda al niño con los deberes. No hay intermediarios. Verás con tus propios ojos las sonrisas, escucharás los \"gracias\", sentirás los abrazos. Nuestros +400 voluntarios activos y las cientos de personas beneficiadas cada semana son la prueba de que sí, tu ayuda importa y transforma vidas. Además, compartimos historias reales e impacto medible en nuestro Instagram @dnivalenciaa.",
+      "Q: ¿Puedo ir solo/a o necesito ir con amigos?\nA: ¡Puedes venir solo/a sin problema! De hecho, muchos voluntarios vienen sin conocer a nadie y hacen grandes amigos en DNI. Somos una comunidad muy acogedora - en tu primera actividad te presentaremos al grupo y te sentirás como en casa rápidamente. Y si quieres venir con amigos, ¡mejor aún! Podéis vivir la experiencia juntos."
+    ],
+    "metricas": {
+      "tokens_entrada": 780,
+      "tokens_salida": 1966,
+      "latencia_s": 12.481,
+      "latencia_total_s": 14.58,
+      "tokens_s": 157.52
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p12",
+    "pregunta": "¿Quién puede ser voluntario en DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar quién puede participar como voluntario según el corpus.",
+    "modelo": "qwen",
+    "servidor": "poligpt",
+    "respuesta": "Según la información proporcionada, no es necesario ser ciudadano español para realizar el voluntariado. El contexto no menciona otros requisitos o condiciones específicas para ser voluntario.",
+    "fuentes": [
+      "02_presentacion_desayunos.txt",
+      "14_impacto_social.txt",
+      "16_resis_49_preguntas.txt"
+    ],
+    "chunks": [
+      "4. Llevar este voluntariado fuera de la asociación: a partir de la concienciación de los voluntarios que estos traten de ayudar a estas personas siempre que puedan en el día a día. Prestando su ayuda o simplemente saludando con una sonrisa.",
+      "Q: ¿Qué gano yo siendo voluntario?\nA: Aunque el voluntariado es dar sin esperar nada a cambio, la realidad es que recibes mucho: experiencias transformadoras que cambian tu perspectiva de vida, habilidades blandas valoradas en el mercado laboral (comunicación, empatía, resolución de problemas), una red de contactos y amistades profundas, satisfacción personal y sentido de propósito, historias increíbles que contar, y sobre todo, la alegría de ver sonreír a alguien gracias a ti. Como dicen nuestros voluntarios: \"Vienes a ayudar y acabas siendo tú el ayudado\". ❤️",
+      "Q: ¿Hace falta ser ciudadano español para realizar el voluntariado?\nA: No, no hace falta ser ciudadano español.\n\nQ: ¿De dónde sale el dinero de la asociación?\nA: De las subvenciones del Estado. El voluntario no necesita hacer ninguna donación.\n\nQ: ¿Qué tengo que hacer si surge algún gasto imprevisto?\nA: Contactar inmediatamente con el responsable de la asociación. Él se encargará de solucionarlo. En ningún caso el voluntario tiene que aportar dinero.",
+      "Q: ¿Qué dicen otros voluntarios de DNI?\nA: Nuestros voluntarios destacan tres cosas: 1) \"DNI es mi segunda familia\" - la comunidad es super unida y acogedora, 2) \"Cambió mi forma de ver el mundo\" - el voluntariado te hace más empático y consciente, 3) \"Es lo mejor que hago en la semana\" - a pesar de estudios/trabajo, el tiempo en DNI les recarga de energía positiva. Muchos empezaron hace años como voluntarios nuevos y ahora son coordinadores. Las plazas se llenan en 45 minutos porque la experiencia es genuinamente transformadora.",
+      "Q: ¿Qué pasa si no me gusta o no me siento bien?\nA: Está totalmente bien. El voluntariado es una experiencia personal y no a todo el mundo le encaja. Si pruebas DNI y sientes que no es para ti (por el tipo de proyectos, el horario, la dinámica de grupo, etc.), no pasa nada - agradecemos que lo hayas intentado. Algunos voluntarios descubren que prefieren otro tipo de ayuda social (animales, medio ambiente, etc.) y está genial. Lo importante es encontrar TU forma de contribuir. Si tienes dudas o incomodidades, habla con los coordinadores - quizás es solo cuestión de probar otro proyecto de DNI."
+    ],
+    "metricas": {
+      "tokens_entrada": 774,
+      "tokens_salida": 2119,
+      "latencia_s": 13.459,
+      "latencia_total_s": 15.544,
+      "tokens_s": 157.44
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p01",
+    "pregunta": "¿Qué es DNI?",
+    "tipo": "factual",
+    "ground_truth": "DNI es una asociación de jóvenes voluntarios en Valencia que realiza proyectos sociales como desayunos solidarios, RESIS y COLES.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa.",
+    "fuentes": [
+      "02_presentacion_desayunos.txt",
+      "03_charlas_abuelitos.txt",
+      "04_filosofia_dni.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "### IMPACTO SOCIAL Y TESTIMONIOS ###",
+      "CHARLAS CON ABUELITOS - PROYECTO DE RESIDENCIAS\n\nINTRODUCCIÓN",
+      "### PREGUNTAS BÁSICAS SOBRE DNI ###\n\nQ: ¿Qué es DNI?\nA: DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa."
+    ],
+    "metricas": {
+      "tokens_entrada": 398,
+      "tokens_salida": 86,
+      "latencia_s": 1.873,
+      "latencia_total_s": 3.927,
+      "tokens_s": 45.92
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p02",
+    "pregunta": "¿Cómo me apunto a los desayunos solidarios?",
+    "tipo": "logistica",
+    "ground_truth": "La respuesta debe explicar cómo participar en desayunos solidarios según el corpus.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.",
+    "fuentes": [
+      "01_faq_dni.txt",
+      "07_desayunos_logistica.txt",
+      "10_proyectos.txt"
+    ],
+    "chunks": [
+      "Q: ¿Cómo me apunto a los desayunos solidarios?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día a desayunos tengo que ir al resto?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Cómo me apunto a los desayunos?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día tengo que ir siempre?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Cómo funcionan los desayunos solidarios?\nA: Los desayunos solidarios se realizan casi todas las semanas en zona centro de Valencia. Preparamos bocadillos, café, zumo y algo de fruta, y vamos a zonas donde hay personas sin hogar. Lo más importante NO es solo dar comida, sino sentarnos a conversar con ellos, escucharles, conocer sus historias y hacerles sentir acompañados. Cada desayuno dura unas 2-3 horas. Es una experiencia transformadora que cambia tu perspectiva sobre la exclusión social.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía.",
+      "Q: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. La hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar. Nos gusta madrugar un poco para llegar cuando la gente está despertando. Te avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp."
+    ],
+    "metricas": {
+      "tokens_entrada": 763,
+      "tokens_salida": 35,
+      "latencia_s": 0.93,
+      "latencia_total_s": 2.982,
+      "tokens_s": 37.63
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p03",
+    "pregunta": "¿Qué es COLES?",
+    "tipo": "factual",
+    "ground_truth": "COLES es el proyecto de refuerzo escolar de DNI para niños en riesgo de exclusión.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "COLES es un refuerzo escolar.",
+    "fuentes": [
+      "02_presentacion_desayunos.txt",
+      "03_charlas_abuelitos.txt",
+      "04_filosofia_dni.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "### IMPACTO SOCIAL Y TESTIMONIOS ###",
+      "CHARLAS CON ABUELITOS - PROYECTO DE RESIDENCIAS\n\nINTRODUCCIÓN",
+      "### PREGUNTAS BÁSICAS SOBRE DNI ###\n\nQ: ¿Qué es DNI?\nA: DNI (Damos Nuestra Ilusión) es una asociación de jóvenes voluntarios en Valencia con el lema \"PARA. MIRA. AYUDA\". Somos +400 voluntarios activos que realizamos proyectos sociales como desayunos solidarios para personas sin hogar, actividades con ancianos (RESIS) y refuerzo escolar (COLES). Nuestra misión es acompañar a quien lo necesita con empatía y acción directa."
+    ],
+    "metricas": {
+      "tokens_entrada": 398,
+      "tokens_salida": 9,
+      "latencia_s": 0.693,
+      "latencia_total_s": 2.773,
+      "tokens_s": 12.99
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p04",
+    "pregunta": "¿En qué se diferencian RESIS y COLES?",
+    "tipo": "sintesis",
+    "ground_truth": "RESIS se centra en residencias de mayores y COLES en refuerzo escolar para niños.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿En qué se diferencia DNI de otras ONG?\nA: DNI se diferencia por: 1) Ser 100% jóvenes (18-25 años) lo que crea una energía especial, 2) Sin burocracia - te unes por WhatsApp y ya estás dentro, 3) Proyectos directos donde tú eres el protagonista de la ayuda (no intermediarios), 4) Comunidad fuerte - harás amigos con tus mismos valores, 5) Flexibilidad - participas cuando puedas, sin compromisos forzados.",
+      "¿POR QUÉ DNI?\n\nLa pregunta correcta no es qué es DNI, sino por qué DNI. ¿Qué es lo que ha sucedido para que aparezca? ¿Qué intenta conseguir? ¿A quién pretende llegar?",
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Cuántas veces puedo participar al mes?\nA: Las que quieras. No hay límite; muchos voluntarios vienen casi todas las semanas.\n\nQ: ¿Qué diferencia hay entre \"desayuno solidario\" y \"cena solidaria\"?\nA: La principal diferencia es la hora y el tipo de alimentos: en los desayunos llevamos café, zumos y bollería; en las cenas, bocadillos y fruta.\n\nQ: ¿Puedo elegir si quiero hacer desayuno o cena?\nA: Sí, cada semana puedes apuntarte al turno que prefieras según tu disponibilidad.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía."
+    ],
+    "metricas": {
+      "tokens_entrada": 768,
+      "tokens_salida": 9,
+      "latencia_s": 0.726,
+      "latencia_total_s": 2.789,
+      "tokens_s": 12.4
+    },
+    "calidad_subjetiva": 0.0,
+    "error": null
+  },
+  {
+    "id": "p05",
+    "pregunta": "¿Qué actividades se hacen en residencias de mayores?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe describir las actividades realizadas con personas mayores en residencias según el corpus.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "Se realizan meriendas, paseos, juegos de mesa, excursiones y muchas más actividades. También se coordinan manualidades, juegos de mesa, paseos, o ir a comprar.",
+    "fuentes": [
+      "03_charlas_abuelitos.txt",
+      "05_resis_actividades.txt",
+      "06_coles_refuerzo.txt"
+    ],
+    "chunks": [
+      "DINÁMICA DE TRABAJO\n\nLa actividad consistirá en unas visitas por las tardes a las residencias de ancianos los días y en el horario que la dirección de la residencia nos asigne. En estas visitas se tratará de amenizar la tarde al residente, ya sea con una conversación, un paseo o un juego.",
+      "Q: ¿Qué tipo de actividades se realizan en residencias?\nA: Meriendas, paseos, juegos de mesa, excursiones y muchas más!!",
+      "Q: ¿Hay transporte organizado para las actividades?\nA: Para actividades en Valencia capital (desayunos solidarios, residencia de abuelitos RESIS, biblioteca COLES) normalmente cada uno llega por su cuenta, ya que suelen ser zonas accesibles en transporte público. La residencia L'Acollida está cerca de Blasco Ibáñez con buenas conexiones de autobús y metro. Lo especificamos siempre en la convocatoria de cada actividad si hay alguna particularidad.",
+      "Q: ¿Qué otras actividades con niños hace DNI?\nA: Además esta actividad semanal a lo largo del año hacemos otras actividades puntuales como Llegada de los Reyes en Navidad o como el Día del Niño en verano este último consiste en llevar a niños de centros de acogida a Terra Mítica a pasar un gran día.",
+      "Q: ¿Solo puedo ir los miércoles o hay otras opciones?\nA: No hay otras opciones para la actividad semanal de RESIS. Solo puedes optar a las actividades puntuales sin compromiso fijo.\n\nQ: ¿Qué tipo de actividades se realizan en la residencia?\nA: Se coordinan con los profesionales: manualidades, juegos de mesa, paseos, o ir a comprar."
+    ],
+    "metricas": {
+      "tokens_entrada": 551,
+      "tokens_salida": 40,
+      "latencia_s": 0.931,
+      "latencia_total_s": 3.014,
+      "tokens_s": 42.96
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p06",
+    "pregunta": "¿Qué valores tiene DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar los valores o la filosofía de DNI según el corpus.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "Nuestros valores fundamentales son: empatía (ponernos en el lugar del otro), acción directa (voluntariado práctico sin intermediarios), comunidad (crear vínculos entre jóvenes con propósito social), inclusión (todas las personas son bienvenidas) y transformación social (creemos que pequeñas acciones generan grandes cambios). Todo lo hacemos desde la ilusión y la alegría.",
+    "fuentes": [
+      "08_preguntas_basicas.txt",
+      "14_impacto_social.txt",
+      "15_desayunos_100_preguntas.txt"
+    ],
+    "chunks": [
+      "Q: ¿Qué valores representa DNI?\nA: Nuestros valores fundamentales son: empatía (ponernos en el lugar del otro), acción directa (voluntariado práctico sin intermediarios), comunidad (crear vínculos entre jóvenes con propósito social), inclusión (todas las personas son bienvenidas) y transformación social (creemos que pequeñas acciones generan grandes cambios). Todo lo hacemos desde la ilusión y la alegría.",
+      "Q: ¿Qué valores mueve a Damos Nuestra Ilusión?\nA: Nuestra receta lleva tres ingredientes principales: Ilusión, Compromiso y Solidaridad. Y un toque joven que hace que cada salida sea especial.\n\nQ: ¿Dónde puedo seguir las actividades o ver fotos del voluntariado?\nA: Estamos activos en Instagram y TikTok. Ahí compartimos vídeos, fotos y experiencias para seguir inspirando a más jóvenes como tú.",
+      "Q: ¿Cuántos voluntarios tiene DNI?\nA: Actualmente tenemos +750 jóvenes interesados en nuestras actividades y +400 voluntarios activos que participan regularmente en nuestros proyectos. Nuestras plazas para actividades (45 por evento típicamente) se llenan en unos 45 minutos, lo que demuestra el alto interés de los jóvenes valencianos por el voluntariado social.",
+      "Q: ¿Qué pasa si no me gusta o no me siento bien?\nA: Está totalmente bien. El voluntariado es una experiencia personal y no a todo el mundo le encaja. Si pruebas DNI y sientes que no es para ti (por el tipo de proyectos, el horario, la dinámica de grupo, etc.), no pasa nada - agradecemos que lo hayas intentado. Algunos voluntarios descubren que prefieren otro tipo de ayuda social (animales, medio ambiente, etc.) y está genial. Lo importante es encontrar TU forma de contribuir. Si tienes dudas o incomodidades, habla con los coordinadores - quizás es solo cuestión de probar otro proyecto de DNI.",
+      "### PREGUNTAS DESAYUNOS - VOLUNTARIADO DNI ###\n\nQ: ¿Qué se hace exactamente en el voluntariado?\nA: Repartimos cenas, desayunos o meriendas solidarias a personas sin hogar por las calles de Valencia. Salimos en grupo junto a un staff, caminamos unos 45-60 minutos y, sobre todo, compartimos momentos, conversación y sonrisas."
+    ],
+    "metricas": {
+      "tokens_entrada": 695,
+      "tokens_salida": 73,
+      "latencia_s": 1.144,
+      "latencia_total_s": 3.236,
+      "tokens_s": 63.81
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p07",
+    "pregunta": "¿Qué proyectos principales tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe mencionar proyectos como desayunos solidarios, residencias de mayores y refuerzo escolar.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "DNI tiene 3 proyectos principales activos: 1) Desayunos y Cenas Solidarias para personas sin hogar (casi todas las semanas), 2) Charlas con Abuelitos en residencia L'Acollida (miércoles de 5:30-6:30pm), 3) Refuerzo Escolar (COLES) en biblioteca tutorizada para niños.",
+    "fuentes": [
+      "09_como_participar.txt",
+      "10_proyectos.txt",
+      "15_desayunos_100_preguntas.txt"
+    ],
+    "chunks": [
+      "### PROYECTOS DE DNI ###\n\nQ: ¿Qué proyectos tiene DNI actualmente?\nA: DNI tiene 3 proyectos principales activos: 1) Desayunos y Cenas Solidarias para personas sin hogar (casi todas las semanas), 2) Charlas con Abuelitos en residencia L'Acollida (miércoles de 5:30-6:30pm), 3) Refuerzo Escolar (COLES) en biblioteca tutorizada para niños.",
+      "Q: ¿Puedo participar en todos los proyectos o tengo que elegir uno?\nA: ¡Puedes participar en todos los proyectos que te interesen! No tienes que limitarte a uno. Muchos voluntarios hacen desayunos algunos fines de semana y visitan abuelitos entre semana. La única excepción es el refuerzo escolar (COLES) que sí requiere más regularidad por el vínculo con los niños. Explora, prueba diferentes proyectos, y quédate con los que más resuenen contigo.",
+      "Q: ¿Puedo proponer ideas o nuevos proyectos?\nA: ¡Por supuesto! DNI es una organización horizontal donde todas las ideas son bienvenidas. Si tienes una propuesta de nuevo proyecto social o mejoras para los actuales, compártela con los coordinadores en el grupo de WhatsApp o en persona. Muchos de nuestros proyectos nacieron de ideas de voluntarios. Creemos en la co-creación y en que todos podemos aportar.",
+      "Q: ¿Cómo se financia el proyecto?\nA: A través de donaciones, campañas solidarias y colaboraciones con empresas o locales de Valencia.\n\nQ: ¿Cómo puedo donar dinero o alimentos?\nA: Puedes escribirnos por Instagram o WhatsApp, y te explicamos las opciones seguras de colaboración.\n\nQ: ¿El proyecto pertenece a alguna ONG grande?\nA: No, es un movimiento independiente, nacido en Valencia y gestionado por jóvenes voluntarios.",
+      "Q: ¿Qué proyecto es mejor para empezar?\nA: Para empezar te recomendamos los desayunos solidarios o las visitas a abuelitos (RESIS). Son proyectos muy accesibles, no requieren formación previa, y te dan una experiencia completa de lo que es DNI. Los desayunos son más esporádicos (ideales si tienes poco tiempo), mientras que los abuelitos permiten crear vínculos más profundos si puedes ir regularmente. ¡Elige según tu disponibilidad y preferencias!"
+    ],
+    "metricas": {
+      "tokens_entrada": 690,
+      "tokens_salida": 83,
+      "latencia_s": 1.232,
+      "latencia_total_s": 3.3,
+      "tokens_s": 67.37
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p08",
+    "pregunta": "¿A qué hora son los desayunos solidarios?",
+    "tipo": "contradiccion",
+    "ground_truth": "La respuesta debe indicar el horario encontrado en las fuentes y, si hay contradicción, mostrar ambas versiones.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "Los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. La hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar. Los desayunos son a las 8 de la mañana y las cenas a las ocho y media de la tarde (20:30).",
+    "fuentes": [
+      "01_faq_dni.txt",
+      "07_desayunos_logistica.txt",
+      "10_proyectos.txt"
+    ],
+    "chunks": [
+      "Q: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos solidarios suelen ser los fines de semana (sábados o domingos) por la mañana temprano, típicamente entre las 9:00-12:00h. La hora exacta varía según la zona donde vayamos y la coordinación con las personas sin hogar. Nos gusta madrugar un poco para llegar cuando la gente está despertando. Te avisaremos con antelación del punto de encuentro y hora exacta en el grupo de WhatsApp.",
+      "Q: ¿Cómo funcionan los desayunos solidarios?\nA: Los desayunos solidarios se realizan casi todas las semanas en zona centro de Valencia. Preparamos bocadillos, café, zumo y algo de fruta, y vamos a zonas donde hay personas sin hogar. Lo más importante NO es solo dar comida, sino sentarnos a conversar con ellos, escucharles, conocer sus historias y hacerles sentir acompañados. Cada desayuno dura unas 2-3 horas. Es una experiencia transformadora que cambia tu perspectiva sobre la exclusión social.",
+      "### LOGÍSTICA DETALLADA DESAYUNOS SOLIDARIOS ###\n\nQ: ¿Qué se hace en la actividad de desayunos solidarios?\nA: La actividad consiste en que un grupo de voluntarios se reúne en un punto de encuentro y se divide en equipos. Cada equipo recorre una zona de Valencia repartiendo desayunos o cenas a personas sin hogar. Lo más importante no es solo la comida, sino el tiempo que se comparte con ellos, ofreciéndoles conversación y compañía.",
+      "Q: ¿Cómo me apunto a los desayunos solidarios?\nA: La actividad se realiza siempre los sábados. Si ese sábado hay actividad, el miércoles se publica por la comunidad de WhatsApp y por redes sociales un formulario para inscribirse.\n\nQ: ¿Si me apunto un día a desayunos tengo que ir al resto?\nA: No. Los desayunos y cenas solidarios son lo que en DNI llamamos actividades puntuales: son voluntariados a los que te puedes apuntar un día sin la necesidad de que tengas que ir a las próximas actividades.",
+      "Q: ¿Dónde es el punto de encuentro para desayunos?\nA: El punto de encuentro siempre es la Porta de la Mar de Valencia. Desde ahí repartimos los alimentos por las zonas de Mestalla, el centro, El Carmen o el río entre otros.\n\nQ: ¿A qué hora son los desayunos solidarios?\nA: Los desayunos son a las 8 de la mañana y las cenas a las ocho y media de la tarde (20:30)."
+    ],
+    "metricas": {
+      "tokens_entrada": 745,
+      "tokens_salida": 91,
+      "latencia_s": 1.179,
+      "latencia_total_s": 3.261,
+      "tokens_s": 77.18
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p09",
+    "pregunta": "¿Cuál es el teléfono personal del presidente de DNI?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Qué hacemos con los abuelitos?\nA: En la residencia L'Acollida visitamos a los ancianos todos los miércoles de 5:30 a 6:30 de la tarde. Las actividades incluyen: paseos por el jardín, juegos de mesa (parchís, cartas, dominó), conversaciones sobre sus historias de vida, lectura de periódicos, cantar canciones antiguas, manualidades simples, y simplemente hacerles compañía. Lo que más valoran es la atención individualizada - que alguien joven se interese por ellos y les dedique tiempo con cariño.",
+      "JUSTIFICACIÓN\n\nEl proyecto \"Charlas con abuelitos\" es una respuesta a la falta de atención que se vive en gran parte de las residencias valencianas. Trata de llenar esa falta de atención a los ancianos que no es profesional, sino social y familiar.\n\nPor otro lado también se busca revalorizar esta figura del anciano dentro la sociedad. Ayudar a la juventud a descubrir el valor que todas estas personas atesoran resaltando la importancia de los mayores en nuestra sociedad.\n\nOBJETIVOS",
+      "Q: ¿Por qué debería unirme a DNI?\nA: Unirte a DNI te cambia la vida en múltiples niveles: 1) Impacto real - verás directamente cómo tu ayuda mejora la vida de personas sin hogar, ancianos solos, niños en dificultades, 2) Comunidad - harás amigos con tus mismos valores, gente increíble de 18-25 años, 3) Crecimiento personal - desarrollarás empatía, liderazgo, trabajo en equipo, 4) Propósito - sentirás que tu tiempo importa y genera cambio positivo, 5) Diversión - ¡el voluntariado con DNI es alegre, dinámico y lleno de buenas vibras! Ven a una actividad y lo experimentarás. 💙",
+      "Q: ¿Qué hago si un residente me pide algo personal?\nA: Debes comunicarlo al responsable. No se deben asumir compromisos individuales.\n\nQ: ¿Qué actitud se espera de un voluntario?\nA: Respeto, empatía, puntualidad y entusiasmo por compartir tiempo con los mayores.\n\nQ: ¿Puedo participar si tengo exámenes o trabajo?\nA: Sí, siempre que te organices y avises si un día no puedes asistir."
+    ],
+    "metricas": {
+      "tokens_entrada": 856,
+      "tokens_salida": 9,
+      "latencia_s": 0.943,
+      "latencia_total_s": 3.01,
+      "tokens_s": 9.54
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p10",
+    "pregunta": "¿Cuánto cuesta el alquiler en Valencia?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "Q: ¿Cómo contacto con alguien de la asociación?\nA: La mejor manera es entrar en el grupo de WhatsApp. Escribe a alguno de los administradores y ellos te redirigirán o te resolverán la pregunta.\n\nQ: ¿Puedo contactar con algún voluntario que me cuente su experiencia?\nA: Claro que sí. Pídeselo a alguien de la asociación y te pasará el contacto de un voluntario o exvoluntario.\n\nQ: ¿Necesito algún tipo de formación para acudir?\nA: No, no es necesaria ninguna formación previa.",
+      "Q: ¿Qué pasa si alguien se siente mal durante el recorrido?\nA: Paramos, lo atendemos y, si hace falta, pedimos ayuda. Siempre salimos acompañados para mayor seguridad.\n\nQ: ¿Hay que llevar dinero?\nA: No, todo lo necesario lo aporta la organización. Solo lleva lo justo para tomar algo después si te apetece.\n\nQ: ¿Qué hago si quiero unirme al equipo organizador?\nA: Participa varias veces y coméntalo con un miembro del staff. Buscamos personas comprometidas y con ganas de aportar.",
+      "Q: ¿Qué otras actividades con niños hace DNI?\nA: Además esta actividad semanal a lo largo del año hacemos otras actividades puntuales como Llegada de los Reyes en Navidad o como el Día del Niño en verano este último consiste en llevar a niños de centros de acogida a Terra Mítica a pasar un gran día.",
+      "DNI busca dejar un mundo mejor, aspira a ayudar al vecino, no pretende irse muy lejos para conseguir hacer algo bueno, porque siempre tendremos a una persona cerca que nos está esperando. No pretende ser importante, sino meterse en tu día a día, habituarte a parar, enseñarte a mirar, con cariño y cercanía, y ofrecer la máxima ayuda, sacando lo mejor de nosotros mismos.",
+      "Q: ¿Cuánto dura cada voluntariado más o menos?\nA: Cada salida dura entre una hora y hora y media, dependiendo del ritmo del grupo y de las personas con las que coincidamos durante el recorrido. Luego tomamos algo y puedes quedarte todo lo que quieras.\n\nQ: ¿Hace falta llevar algo especial (ropa, calzado, mochila…)?\nA: Solo recomendamos llevar ropa cómoda y calzado adecuado para caminar, y muchas ganas de ayudar e ilusión!"
+    ],
+    "metricas": {
+      "tokens_entrada": 710,
+      "tokens_salida": 9,
+      "latencia_s": 0.722,
+      "latencia_total_s": 2.833,
+      "tokens_s": 12.47
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p11",
+    "pregunta": "¿Qué impacto social tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe resumir el impacto social de DNI usando información del corpus.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "Nuestros +400 voluntarios activos y las cientos de personas beneficiadas cada semana son la prueba de que sí, tu ayuda importa y transforma vidas. Además, compartimos historias reales e impacto medible en nuestro Instagram @dnivalenciaa.",
+    "fuentes": [
+      "08_preguntas_basicas.txt",
+      "09_como_participar.txt",
+      "12_contacto_redes.txt"
+    ],
+    "chunks": [
+      "Q: ¿DNI tiene redes sociales?\nA: Sí, nuestra red social principal es Instagram: @dnivalenciaa donde tenemos +2,077 seguidores. Allí publicamos fotos de nuestras actividades, convocatorias de nuevos proyectos, historias inspiradoras de voluntarios, y todo lo que pasa en DNI. ¡Síguenos para estar al día! También usamos WhatsApp intensivamente para la coordinación directa entre voluntarios. Nuestra web es damosnuestrailusionvlc.org.",
+      "Q: ¿Cuál es la filosofía de DNI?\nA: Nuestra filosofía se resume en \"PARA. MIRA. AYUDA\". PARA: detente en tu día a día y observa tu alrededor. MIRA: con empatía a las personas que te rodean. AYUDA: actúa de forma directa para mejorar la vida de otros. Creemos en el voluntariado sin burocracia, basado en la ilusión de jóvenes de 18-25 años que quieren generar impacto social real. ¿Te gustaría saber más sobre cómo ponemos esta filosofía en práctica? Puedes encontrar más información sobre nuestros proyectos en nuestra web o Instagram [dnivalenciaa](https://www.instagram.com/dnivalenciaa?igsh=MWRicTFocW5jODN6NQ==).",
+      "Q: ¿Qué se hace en fechas especiales como Navidad o Fallas?\nA: Se preparan actividades temáticas, regalos o decoraciones con los mayores.\n\nQ: ¿Hay alguna reunión o formación antes de empezar?\nA: Sí, el responsable te explicará cómo interactuar y las normas básicas.\n\nQ: ¿Cuánto tiempo se recomienda participar para notar impacto?\nA: Al menos un trimestre, aunque muchos voluntarios continúan todo el curso.",
+      "Q: ¿Cómo sé que mi ayuda realmente sirve?\nA: En DNI practicamos el impacto directo - TÚ eres quien da el desayuno, conversa con el anciano, ayuda al niño con los deberes. No hay intermediarios. Verás con tus propios ojos las sonrisas, escucharás los \"gracias\", sentirás los abrazos. Nuestros +400 voluntarios activos y las cientos de personas beneficiadas cada semana son la prueba de que sí, tu ayuda importa y transforma vidas. Además, compartimos historias reales e impacto medible en nuestro Instagram @dnivalenciaa.",
+      "Q: ¿Puedo ir solo/a o necesito ir con amigos?\nA: ¡Puedes venir solo/a sin problema! De hecho, muchos voluntarios vienen sin conocer a nadie y hacen grandes amigos en DNI. Somos una comunidad muy acogedora - en tu primera actividad te presentaremos al grupo y te sentirás como en casa rápidamente. Y si quieres venir con amigos, ¡mejor aún! Podéis vivir la experiencia juntos."
+    ],
+    "metricas": {
+      "tokens_entrada": 774,
+      "tokens_salida": 51,
+      "latencia_s": 0.975,
+      "latencia_total_s": 3.043,
+      "tokens_s": 52.31
+    },
+    "calidad_subjetiva": 1.0,
+    "error": null
+  },
+  {
+    "id": "p12",
+    "pregunta": "¿Quién puede ser voluntario en DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar quién puede participar como voluntario según el corpus.",
+    "modelo": "gemma",
+    "servidor": "poligpt",
+    "respuesta": "No tengo esa información en mis fuentes.",
+    "fuentes": [],
+    "chunks": [
+      "4. Llevar este voluntariado fuera de la asociación: a partir de la concienciación de los voluntarios que estos traten de ayudar a estas personas siempre que puedan en el día a día. Prestando su ayuda o simplemente saludando con una sonrisa.",
+      "Q: ¿Qué gano yo siendo voluntario?\nA: Aunque el voluntariado es dar sin esperar nada a cambio, la realidad es que recibes mucho: experiencias transformadoras que cambian tu perspectiva de vida, habilidades blandas valoradas en el mercado laboral (comunicación, empatía, resolución de problemas), una red de contactos y amistades profundas, satisfacción personal y sentido de propósito, historias increíbles que contar, y sobre todo, la alegría de ver sonreír a alguien gracias a ti. Como dicen nuestros voluntarios: \"Vienes a ayudar y acabas siendo tú el ayudado\". ❤️",
+      "Q: ¿Hace falta ser ciudadano español para realizar el voluntariado?\nA: No, no hace falta ser ciudadano español.\n\nQ: ¿De dónde sale el dinero de la asociación?\nA: De las subvenciones del Estado. El voluntario no necesita hacer ninguna donación.\n\nQ: ¿Qué tengo que hacer si surge algún gasto imprevisto?\nA: Contactar inmediatamente con el responsable de la asociación. Él se encargará de solucionarlo. En ningún caso el voluntario tiene que aportar dinero.",
+      "Q: ¿Qué dicen otros voluntarios de DNI?\nA: Nuestros voluntarios destacan tres cosas: 1) \"DNI es mi segunda familia\" - la comunidad es super unida y acogedora, 2) \"Cambió mi forma de ver el mundo\" - el voluntariado te hace más empático y consciente, 3) \"Es lo mejor que hago en la semana\" - a pesar de estudios/trabajo, el tiempo en DNI les recarga de energía positiva. Muchos empezaron hace años como voluntarios nuevos y ahora son coordinadores. Las plazas se llenan en 45 minutos porque la experiencia es genuinamente transformadora.",
+      "Q: ¿Qué pasa si no me gusta o no me siento bien?\nA: Está totalmente bien. El voluntariado es una experiencia personal y no a todo el mundo le encaja. Si pruebas DNI y sientes que no es para ti (por el tipo de proyectos, el horario, la dinámica de grupo, etc.), no pasa nada - agradecemos que lo hayas intentado. Algunos voluntarios descubren que prefieren otro tipo de ayuda social (animales, medio ambiente, etc.) y está genial. Lo importante es encontrar TU forma de contribuir. Si tienes dudas o incomodidades, habla con los coordinadores - quizás es solo cuestión de probar otro proyecto de DNI."
+    ],
+    "metricas": {
+      "tokens_entrada": 772,
+      "tokens_salida": 9,
+      "latencia_s": 0.751,
+      "latencia_total_s": 2.847,
+      "tokens_s": 11.98
+    },
+    "calidad_subjetiva": 0.0,
+    "error": null
+  }
+]

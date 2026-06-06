@@ -1,0 +1,74 @@
+[
+  {
+    "id": "p01",
+    "pregunta": "¿Qué es DNI?",
+    "tipo": "factual",
+    "ground_truth": "DNI es una asociación de jóvenes voluntarios en Valencia que realiza proyectos sociales como desayunos solidarios, RESIS y COLES."
+  },
+  {
+    "id": "p02",
+    "pregunta": "¿Cómo me apunto a los desayunos solidarios?",
+    "tipo": "logistica",
+    "ground_truth": "La respuesta debe explicar cómo participar en desayunos solidarios según el corpus."
+  },
+  {
+    "id": "p03",
+    "pregunta": "¿Qué es COLES?",
+    "tipo": "factual",
+    "ground_truth": "COLES es el proyecto de refuerzo escolar de DNI para niños en riesgo de exclusión."
+  },
+  {
+    "id": "p04",
+    "pregunta": "¿En qué se diferencian RESIS y COLES?",
+    "tipo": "sintesis",
+    "ground_truth": "RESIS se centra en residencias de mayores y COLES en refuerzo escolar para niños."
+  },
+  {
+    "id": "p05",
+    "pregunta": "¿Qué actividades se hacen en residencias de mayores?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe describir las actividades realizadas con personas mayores en residencias según el corpus."
+  },
+  {
+    "id": "p06",
+    "pregunta": "¿Qué valores tiene DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar los valores o la filosofía de DNI según el corpus."
+  },
+  {
+    "id": "p07",
+    "pregunta": "¿Qué proyectos principales tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe mencionar proyectos como desayunos solidarios, residencias de mayores y refuerzo escolar."
+  },
+  {
+    "id": "p08",
+    "pregunta": "¿A qué hora son los desayunos solidarios?",
+    "tipo": "contradiccion",
+    "ground_truth": "La respuesta debe indicar el horario encontrado en las fuentes y, si hay contradicción, mostrar ambas versiones."
+  },
+  {
+    "id": "p09",
+    "pregunta": "¿Cuál es el teléfono personal del presidente de DNI?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes."
+  },
+  {
+    "id": "p10",
+    "pregunta": "¿Cuánto cuesta el alquiler en Valencia?",
+    "tipo": "fuera_ambito",
+    "ground_truth": "No tengo esa información en mis fuentes."
+  },
+  {
+    "id": "p11",
+    "pregunta": "¿Qué impacto social tiene DNI?",
+    "tipo": "sintesis",
+    "ground_truth": "La respuesta debe resumir el impacto social de DNI usando información del corpus."
+  },
+  {
+    "id": "p12",
+    "pregunta": "¿Quién puede ser voluntario en DNI?",
+    "tipo": "factual",
+    "ground_truth": "La respuesta debe explicar quién puede participar como voluntario según el corpus."
+  }
+]
