@@ -39,11 +39,23 @@ Si PowerShell da problemas de permisos, se puede activar desde `cmd` con:
 .venv\Scripts\activate.bat
 ```
 
+Cuando esté activado, debería aparecer `(.venv)` al principio de la línea de comandos.
+
 ### 4. Instalar dependencias
 
+Para levantar el agente principal, se pueden instalar primero las dependencias mínimas:
+
 ```bash
-pip install -r requirements.txt
+python -m pip install requests==2.32.3 python-dotenv==1.0.1 chromadb==0.5.23 langchain-text-splitters==0.3.5
 ```
+
+Después se instalan las dependencias principales del agente:
+
+```bash
+python -m pip install requests==2.32.3 python-dotenv==1.0.1 chromadb==0.5.23 langchain-text-splitters==0.3.5
+```
+
+Si durante la instalación completa aparece algún error relacionado con paquetes auxiliares de RAGAs o `datasets`, el agente principal puede seguir funcionando siempre que las dependencias mínimas anteriores estén instaladas.
 
 ### 5. Preparar Ollama
 
@@ -88,7 +100,7 @@ También se puede ejecutar:
 python consultar.py
 ```
 
-La primera ejecución puede tardar un poco más porque se genera el índice vectorial con ChromaDB a partir de los documentos de `base_conocimiento/`. Las siguientes ejecuciones deberían ser más rápidas.
+La primera ejecución puede tardar un poco más porque se genera el índice vectorial con ChromaDB a partir de los documentos de `base_conocimiento/`. En mi caso, después de esperar un rato, la consulta terminó respondiendo correctamente. Las siguientes ejecuciones deberían ser más rápidas porque el índice ya queda generado.
 
 ## Estructura del proyecto
 
