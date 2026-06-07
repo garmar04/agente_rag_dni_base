@@ -49,10 +49,10 @@ Para levantar el agente principal, se pueden instalar primero las dependencias m
 python -m pip install requests==2.32.3 python-dotenv==1.0.1 chromadb==0.5.23 langchain-text-splitters==0.3.5
 ```
 
-Después se instalan las dependencias principales del agente:
+Después, si se quieren instalar también las dependencias completas usadas para benchmark y evaluación, se puede ejecutar:
 
 ```bash
-python -m pip install requests==2.32.3 python-dotenv==1.0.1 chromadb==0.5.23 langchain-text-splitters==0.3.5
+python -m pip install -r requirements.txt
 ```
 
 Si durante la instalación completa aparece algún error relacionado con paquetes auxiliares de RAGAs o `datasets`, el agente principal puede seguir funcionando siempre que las dependencias mínimas anteriores estén instaladas.
