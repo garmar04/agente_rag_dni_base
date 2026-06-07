@@ -19,11 +19,23 @@ git clone https://github.com/garmar04/agente_rag_dni_base.git
 cd agente_rag_dni_base
 ```
 
-### 2. Crear el entorno virtual
+### 2. Crear el entorno virtual con Python 3.11
+
+Se recomienda usar Python 3.11, ya que con versiones más nuevas pueden aparecer problemas al instalar algunas dependencias como ChromaDB.
+
+Primero se comprueba que Python 3.11 está disponible:
 
 ```bash
-python -m venv .venv
+py -3.11 --version
 ```
+
+Después se crea el entorno virtual usando explícitamente Python 3.11:
+
+```bash
+py -3.11 -m venv .venv
+```
+
+Es importante usar este comando y no simplemente `python -m venv .venv`, porque si el ordenador tiene varias versiones de Python instaladas, puede coger una versión demasiado nueva.
 
 ### 3. Activar el entorno virtual
 
@@ -41,12 +53,25 @@ Si PowerShell da problemas de permisos, se puede activar desde `cmd` con:
 
 Cuando esté activado, debería aparecer `(.venv)` al principio de la línea de comandos.
 
-### 4. Instalar dependencias
-
-Para levantar el agente principal, se pueden instalar primero las dependencias mínimas:
+También se puede comprobar que el entorno está usando Python 3.11 con:
 
 ```bash
+python --version
+```
+
+### 4. Instalar dependencias mínimas
+
+Para levantar el agente principal, se instalan primero las dependencias mínimas:
+
+```bash
+python -m pip install --upgrade pip setuptools wheel
 python -m pip install requests==2.32.3 python-dotenv==1.0.1 chromadb==0.5.23 langchain-text-splitters==0.3.5
+```
+
+Después se comprueba que se han instalado correctamente:
+
+```bash
+python -c "import dotenv; import chromadb; import langchain_text_splitters; print('dependencias OK')"
 ```
 
 Después, si se quieren instalar también las dependencias completas usadas para benchmark y evaluación, se puede ejecutar:
@@ -65,13 +90,21 @@ El sistema principal funciona con Ollama local. Primero hay que comprobar que Ol
 ollama --version
 ```
 
-Si Ollama no está en ejecución, se puede arrancar con:
+Normalmente en Windows Ollama ya se queda ejecutándose en segundo plano. Se puede comprobar con:
+
+```bash
+ollama list
+```
+
+Si Ollama no estuviera en ejecución, se puede arrancar con:
 
 ```bash
 ollama serve
 ```
 
-Después, en otra terminal, hay que descargar los modelos necesarios:
+Si al ejecutar `ollama serve` aparece un mensaje indicando que el puerto `11434` ya está en uso, no es un error grave: significa que Ollama ya estaba arrancado. En ese caso se puede continuar directamente.
+
+Después hay que descargar los modelos necesarios:
 
 ```bash
 ollama pull nomic-embed-text
