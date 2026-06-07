@@ -124,6 +124,10 @@ ollama pull llama3.2:3b
 Desde la raíz del proyecto:
 
 ```bash
+python -c "from consultar import consultar; r=consultar('¿Qué es DNI?'); print('\nRESPUESTA:\n' + r['respuesta']); print('\nFUENTES:'); print('\n'.join('- ' + f for f in r['fuentes']))"
+```
+
+```bash
 python -c "from consultar import consultar; print(consultar('¿Qué es DNI?'))"
 ```
 
