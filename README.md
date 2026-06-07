@@ -8,6 +8,88 @@ El agente está pensado para contestar preguntas sobre qué es DNI, sus proyecto
 
 El objetivo de esta entrega ha sido llegar a Banda 8, por lo que además del pipeline RAG básico se ha añadido un benchmark con cuatro modelos, una evaluación con RAGAs y dos métricas propias.
 
+## Ejecución rápida desde cero en Windows
+
+Esta sección está pensada para poder levantar el proyecto desde cero en un ordenador Windows, como el del aula.
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/garmar04/agente_rag_dni_base.git
+cd agente_rag_dni_base
+```
+
+### 2. Crear el entorno virtual
+
+```bash
+python -m venv .venv
+```
+
+### 3. Activar el entorno virtual
+
+En Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+Si PowerShell da problemas de permisos, se puede activar desde `cmd` con:
+
+```bash
+.venv\Scripts\activate.bat
+```
+
+### 4. Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Preparar Ollama
+
+El sistema principal funciona con Ollama local. Primero hay que comprobar que Ollama está instalado:
+
+```bash
+ollama --version
+```
+
+Si Ollama no está en ejecución, se puede arrancar con:
+
+```bash
+ollama serve
+```
+
+Después, en otra terminal, hay que descargar los modelos necesarios:
+
+```bash
+ollama pull nomic-embed-text
+ollama pull qwen2.5:3b
+```
+
+El modelo `nomic-embed-text` se usa para generar los embeddings y `qwen2.5:3b` es el modelo local utilizado por defecto para generar las respuestas.
+
+Para repetir también el benchmark local completo, se necesita además:
+
+```bash
+ollama pull llama3.2:3b
+```
+
+### 6. Ejecutar una consulta de prueba
+
+Desde la raíz del proyecto:
+
+```bash
+python -c "from consultar import consultar; print(consultar('¿Qué es DNI?'))"
+```
+
+También se puede ejecutar:
+
+```bash
+python consultar.py
+```
+
+La primera ejecución puede tardar un poco más porque se genera el índice vectorial con ChromaDB a partir de los documentos de `base_conocimiento/`. Las siguientes ejecuciones deberían ser más rápidas.
+
 ## Estructura del proyecto
 
 La estructura principal del repositorio es la siguiente:
@@ -179,6 +261,8 @@ POLIGPT_API_KEY=tu_clave_aqui
 POLIGPT_BASE_URL=https://api.poligpt.upv.es/v1
 ```
 
+Para la ejecución principal con Ollama local no hace falta crear un archivo `.env`, porque el sistema ya usa valores por defecto.
+
 Para usar PoliGPT hace falta tener una clave válida. Si se está fuera del campus, también hace falta estar conectado a la VPN de la UPV.
 
 ## Cómo ejecutar una consulta
@@ -215,6 +299,48 @@ La salida tiene una forma parecida a esta:
 ```
 
 Si la pregunta está fuera del corpus, por ejemplo sobre alquileres o datos privados, el sistema debe responder que no tiene esa información en sus fuentes.
+
+Ejemplo:
+
+```text
+¿Cuánto cuesta el alquiler en Valencia?
+```
+
+Respuesta esperada:
+
+```text
+No tengo esa información en mis fuentes.
+```
+
+## Preguntas de prueba recomendadas
+
+Estas preguntas pueden servir para comprobar rápidamente el funcionamiento del agente durante la defensa:
+
+```text
+¿Qué es DNI?
+```
+
+```text
+¿Cómo me apunto a los desayunos solidarios?
+```
+
+```text
+¿Qué es COLES?
+```
+
+```text
+¿Qué actividades se hacen en residencias de mayores?
+```
+
+```text
+¿En qué se diferencian RESIS y COLES?
+```
+
+```text
+¿Cuánto cuesta el alquiler en Valencia?
+```
+
+La pregunta sobre RESIS y COLES es una de las más difíciles, porque requiere recuperar información de varios documentos. En el benchmark se vio que este tipo de preguntas depende mucho de que el retrieval encuentre los chunks adecuados.
 
 ## Benchmark
 
@@ -353,6 +479,16 @@ Los integrantes y roles del grupo están indicados en:
 ```text
 GRUPO.md
 ```
+
+## Declaración de funcionalidades
+
+Las funcionalidades declaradas para la corrección están en:
+
+```text
+features.json
+```
+
+En esta entrega se declara arquitectura `single_agent` y Banda 8. No se declara Banda 10 porque no se ha implementado arquitectura hexagonal completa.
 
 ## Conclusión
 
